@@ -4,7 +4,8 @@
 # DOMAIN-KEYWORD,google                    规则会匹配包含相应关键字的域名
 # DOMAIN,google.com                        规则会匹配与请求完全相同的地址
 
-# CHD                 
+# CHD 
+DOMAIN-SUFFIX,ptchdbits.co
 DOMAIN-KEYWORD,chdbits                     
 DOMAIN-SUFFIX,chdbits.xyz                  
 
