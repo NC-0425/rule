@@ -140,64 +140,63 @@ DOMAIN-SUFFIX,www.hdkylin.top
 
 
 # ultrahd
-DOMAIN-SUFFIX,ultrahd.net                  # 域名
+DOMAIN-SUFFIX,ultrahd.net                  
 
 
 # piggo
-DOMAIN-SUFFIX,piggo.me                     # 域名
-DOMAIN-SUFFIX,tracker.piggo.me             # Tracke
+DOMAIN-SUFFIX,piggo.me                    
+DOMAIN-SUFFIX,tracker.piggo.me             
 
 # okpt
-DOMAIN-SUFFIX,okpt.net                     # 域名
-DOMAIN-SUFFIX,www.okpt.net                 # Tracke
-
+DOMAIN-SUFFIX,okpt.net                    
+DOMAIN-SUFFIX,www.okpt.net                
 # hares
-DOMAIN-SUFFIX,club.hares.top               # 域名
+DOMAIN-SUFFIX,club.hares.top              
 
 # ptchina
-DOMAIN-SUFFIX,ptchina.org                  # 域名
+DOMAIN-SUFFIX,ptchina.org               
 
 # okpt
-DOMAIN-SUFFIX,okpt.net                     # 域名
-DOMAIN-SUFFIX,www.okpt.net                 # Tracke
+DOMAIN-SUFFIX,okpt.net                 
+DOMAIN-SUFFIX,www.okpt.net             
 
 
 # zhuque
-DOMAIN-SUFFIX,zhuque.in                    # 域名
-DOMAIN-SUFFIX,tracker.zhuque.in            # Tracke
+DOMAIN-SUFFIX,zhuque.in                
+DOMAIN-SUFFIX,tracker.zhuque.in          
 
 # ilolicon
-DOMAIN-SUFFIX,share.ilolicon.com           # 域名
-DOMAIN-SUFFIX,tracker.ilolicon.cc          # Tracke
+DOMAIN-SUFFIX,share.ilolicon.com          
+DOMAIN-SUFFIX,tracker.ilolicon.cc         
 
 # haidan
-DOMAIN-SUFFIX,www.haidan.video             # 域名
-DOMAIN-SUFFIX,announce.haidan.video        # Tracke
+DOMAIN-SUFFIX,www.haidan.video            
+DOMAIN-SUFFIX,announce.haidan.video      
 
 # oshen
-DOMAIN-SUFFIX,www.oshen.win                # 域名
+DOMAIN-SUFFIX,www.oshen.win               
 
 # yemapt
-DOMAIN-SUFFIX,www.yemapt.org                # 域名
-DOMAIN-SUFFIX,tracker.yemapt.org            # Tracke
+DOMAIN-SUFFIX,www.yemapt.org              
+DOMAIN-SUFFIX,tracker.yemapt.org          
 
 # hdvbits
-DOMAIN-SUFFIX,hdvbits.com                   # 域名
+DOMAIN-SUFFIX,hdvbits.com                  
 
 # crabpt 蟹黄堡
-DOMAIN-SUFFIX,crabpt.vip                    # 域名
+DOMAIN-SUFFIX,crabpt.vip                   
 
 # kufei
-DOMAIN-SUFFIX,kufei.org                     # 域名
+DOMAIN-SUFFIX,kufei.org                   
 
 # ecust
-DOMAIN-SUFFIX,pt.ecust.pp.ua                # 域名
-DOMAIN-SUFFIX,ecustpt.eu.org                # Tracke
+DOMAIN-SUFFIX,pt.ecust.pp.ua               
+DOMAIN-SUFFIX,ecustpt.eu.org               
 
 # hdcity
-DOMAIN-SUFFIX,hdcity.city                   # 域名
-DOMAIN-SUFFIX,sync.leniter.org              # Tracke
+DOMAIN-SUFFIX,hdcity.city                  
+DOMAIN-SUFFIX,sync.leniter.org              
 
 # fsm
-DOMAIN-SUFFIX,connects.icu                  # Tracke
-DOMAIN-SUFFIX,nextpt.net                    # Tracke
+DOMAIN-SUFFIX,connects.icu                 
+DOMAIN-SUFFIX,nextpt.net                   
