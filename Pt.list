@@ -1,100 +1,100 @@
 # Pt列表
 
-# DOMAIN-SUFFIX,google.com            # 规则会匹配与请求与主域名相同的地址
-# DOMAIN-KEYWORD,google              # 规则会匹配包含相应关键字的域名
+# DOMAIN-SUFFIX,google.com                 # 规则会匹配与请求与主域名相同的地址
+# DOMAIN-KEYWORD,google                    # 规则会匹配包含相应关键字的域名
 # DOMAIN,google.com                        # 规则会匹配与请求完全相同的地址
 
 #CHD
-DOMAIN-SUFFIX,ptchdbits.co              # 域名
-DOMAIN-KEYWORD,chdbits                # 关键字
-DOMAIN-SUFFIX,chdbits.xyz                # Tracker
+DOMAIN-SUFFIX,ptchdbits.co                 # 域名
+DOMAIN-KEYWORD,chdbits                     # 关键字
+DOMAIN-SUFFIX,chdbits.xyz                  # Tracker
 
-#.M-Team
-DOMAIN-SUFFIX,zp.m-team.io            # 域名
-DOMAIN-KEYWORD,m-team               # 关键字
-DOMAIN-SUFFIX,tracker.m-team.cc     # Tracker
-DOMAIN-SUFFIX,api.m-team.cc           # API
-DOMAIN-SUFFIX,api.m-team.io           # API
+#M-Team
+DOMAIN-SUFFIX,zp.m-team.io                 # 域名
+DOMAIN-KEYWORD,m-team                      # 关键字
+DOMAIN-SUFFIX,tracker.m-team.cc            # Tracker
+DOMAIN-SUFFIX,api.m-team.cc                # API
+DOMAIN-SUFFIX,api.m-team.io                # API
 
-Audiences
-DOMAIN-SUFFIX,audiences.me           # 域名
-DOMAIN-SUFFIX,t.audiences.me         # Tracker
-DOMAIN-SUFFIX,tracker.cinefiles.info  # Tracker
+#Audiences
+DOMAIN-SUFFIX,audiences.me                 # 域名
+DOMAIN-SUFFIX,t.audiences.me               # Tracker
+DOMAIN-SUFFIX,tracker.cinefiles.info       # Tracker
 
-hhanclub
-DOMAIN-SUFFIX,hhanclub.top            # 域名
-DOMAIN-SUFFIX,tracker.hhan.club      # Tracker
+#hhanclub
+DOMAIN-SUFFIX,hhanclub.top                 # 域名
+DOMAIN-SUFFIX,tracker.hhan.club            # Tracker
 
 #ourbits
-DOMAIN-SUFFIX,ourbits.club             # 域名
-DOMAIN-KEYWORD,ourbits               # 关键字
+DOMAIN-SUFFIX,ourbits.club                 # 域名
+DOMAIN-KEYWORD,ourbits                     # 关键字
 
 #hddolby
-DOMAIN-SUFFIX,hddolby.com           # 域名
-DOMAIN-SUFFIX,t.hddolby.com         # Tracker
+DOMAIN-SUFFIX,hddolby.com                  # 域名
+DOMAIN-SUFFIX,t.hddolby.com                # Tracker
 
 #hdhome
-DOMAIN-SUFFIX,hdhome.org           # 域名
-DOMAIN-SUFFIX,t.hdhome.org         # Tracker
+DOMAIN-SUFFIX,hdhome.org                   # 域名
+DOMAIN-SUFFIX,t.hdhome.org                 # Tracker
 
 #keepfrds
-DOMAIN-SUFFIX,pt.keepfrds.com                # 域名
-DOMAIN-SUFFIX,tracker.keepfrds.com        # Tracker
+DOMAIN-SUFFIX,pt.keepfrds.com              # 域名
+DOMAIN-SUFFIX,tracker.keepfrds.com         # Tracker
 
 #totheglory
-DOMAIN-SUFFIX,totheglory.im                    # 域名
-DOMAIN-SUFFIX,tracker.totheglory.im         # Tracker
+DOMAIN-SUFFIX,totheglory.im                # 域名
+DOMAIN-SUFFIX,tracker.totheglory.im        # Tracker
 
 #agsvpt
-DOMAIN-SUFFIX,agsvpt.com                     # 域名
-DOMAIN-KEYWORD,agsvpt               # 关键字
-DOMAIN-SUFFIX,agsvpt.trackers.work        # Tracker
-DOMAIN-SUFFIX,tracker.agsvpt.cn                                      # Tracker
-DOMAIN-SUFFIX,ipv6.agsvpt.cn                 # Tracker
+DOMAIN-SUFFIX,agsvpt.com                   # 域名
+DOMAIN-KEYWORD,agsvpt                      # 关键字
+DOMAIN-SUFFIX,agsvpt.trackers.work         # Tracker
+DOMAIN-SUFFIX,tracker.agsvpt.cn            # Tracker
+DOMAIN-SUFFIX,ipv6.agsvpt.cn               # Tracker
 
 #leaves
-DOMAIN-SUFFIX,leaves.red                     # 域名
-DOMAIN-KEYWORD,leaves               # 关键字
-DOMAIN-SUFFIX,tracker.leaves.red        # Tracker
-DOMAIN-SUFFIX,tracker2.leaves.red        # Tracker
-DOMAIN-SUFFIX,tracker3.leaves.red        # Tracker
-DOMAIN-SUFFIX,tracker.leaves.red        # Tracker
+DOMAIN-SUFFIX,leaves.red                   # 域名
+DOMAIN-KEYWORD,leaves                      # 关键字
+DOMAIN-SUFFIX,tracker.leaves.red           # Tracker
+DOMAIN-SUFFIX,tracker2.leaves.red          # Tracker
+DOMAIN-SUFFIX,tracker3.leaves.red          # Tracker
+DOMAIN-SUFFIX,tracker.leaves.red           # Tracker
 
 #pttime
-DOMAIN-SUFFIX,pttime.org             # 域名
+DOMAIN-SUFFIX,pttime.org                   # 域名
 
 #hdvideo
-DOMAIN-SUFFIX,hdvideo.one                     # 域名
+DOMAIN-SUFFIX,hdvideo.one                  # 域名
 
 #ubits
-DOMAIN-SUFFIX,ubits.club                     # 域名
-DOMAIN-SUFFIX,t.ubits.club                   # Tracker
+DOMAIN-SUFFIX,ubits.club                   # 域名
+DOMAIN-SUFFIX,t.ubits.club                 # Tracker
 
 #tjupt
 DOMAIN-SUFFIX,tjupt.org                    # 域名
-DOMAIN-SUFFIX,tracker-public.tjupt.org                   # Tracker
+DOMAIN-SUFFIX,tracker-public.tjupt.org     # Tracker
 
 #dajiao
-DOMAIN-SUFFIX,dajiao.cyou                    # 域名
+DOMAIN-SUFFIX,dajiao.cyou                   # 域名
 
 #hdtime
 DOMAIN-SUFFIX,hdtime.org                    # 域名
-DOMAIN-SUFFIX,tracker.hdtime.org                  # Tracke
+DOMAIN-SUFFIX,tracker.hdtime.org            # Tracke
 
 #hdarea
 DOMAIN-SUFFIX,hdarea.club                   # 域名
-DOMAIN-SUFFIX,tracker.hdarea.club                  # Tracke
+DOMAIN-SUFFIX,tracker.hdarea.club           # Tracke
 
 #pandapt
 DOMAIN-SUFFIX,pandapt.net                   # 域名
 
 #hdfans
-DOMAIN-SUFFIX,hdfans.org                   # 域名
+DOMAIN-SUFFIX,hdfans.org                    # 域名
 
 
 #zmpt
-DOMAIN-SUFFIX,zmpt.cc                  # 域名
-DOMAIN-SUFFIX,zmpt.club               # 域名
+DOMAIN-SUFFIX,zmpt.cc                       # 域名
+DOMAIN-SUFFIX,zmpt.club                     # 域名
 
 #hdatmos
 DOMAIN-SUFFIX,hdatmos.club                  # 域名
@@ -104,38 +104,38 @@ DOMAIN-SUFFIX,ptsbao.club                   # 域名
 
 
 #tosky
-DOMAIN-SUFFIX,t.tosky.club                   # 域名
-DOMAIN-SUFFIX,tr.tosky.club                  # Tracke
+DOMAIN-SUFFIX,t.tosky.club                  # 域名
+DOMAIN-SUFFIX,tr.tosky.club                 # Tracke
 
 
 #pthome
 DOMAIN-SUFFIX,pthome.net                   # 域名
-DOMAIN-SUFFIX,t.pthome.net                  # Tracke
+DOMAIN-SUFFIX,t.pthome.net                 # Tracke
 
 #soulvoice
-DOMAIN-SUFFIX,pt.soulvoice.club                   # 域名
+DOMAIN-SUFFIX,pt.soulvoice.club            # 域名
 
 
 #cyanbug
 DOMAIN-SUFFIX,cyanbug.net                  # 域名
-DOMAIN-SUFFIX,tracker.cyanbug.net                  # Tracke
+DOMAIN-SUFFIX,tracker.cyanbug.net          # Tracke
 
 
 #qingwa
-DOMAIN-SUFFIX,new.qingwa.pro                  # 域名
-DOMAIN-SUFFIX,qingwa.com                  # 域名
-DOMAIN-SUFFIX,tracker.qingwa.pro                  # Tracke
-DOMAIN-SUFFIX,tracker.qingwapt.com                  # Tracke
-DOMAIN-SUFFIX,tracker.qingwapt.pro                  # Tracke
+DOMAIN-SUFFIX,new.qingwa.pro               # 域名
+DOMAIN-SUFFIX,qingwa.com                   # 域名
+DOMAIN-SUFFIX,tracker.qingwa.pro           # Tracke
+DOMAIN-SUFFIX,tracker.qingwapt.com         # Tracke
+DOMAIN-SUFFIX,tracker.qingwapt.pro         # Tracke
 
 #ptvicomo
 DOMAIN-SUFFIX,ptvicomo.net                 # 域名
-DOMAIN-SUFFIX,tracker.ptvicomo.net                  # Tracke
+DOMAIN-SUFFIX,tracker.ptvicomo.net         # Tracke
 
 #hdkyl
-DOMAIN-SUFFIX,hdkyl.in                 # 域名
-DOMAIN-SUFFIX,tracker.hdkyl.in                  # Tracke
-DOMAIN-SUFFIX,www.hdkylin.top                  # Tracke
+DOMAIN-SUFFIX,hdkyl.in                     # 域名
+DOMAIN-SUFFIX,tracker.hdkyl.in             # Tracke
+DOMAIN-SUFFIX,www.hdkylin.top              # Tracke
 
 
 
@@ -144,61 +144,61 @@ DOMAIN-SUFFIX,ultrahd.net                  # 域名
 
 
 #piggo
-DOMAIN-SUFFIX,piggo.me                 # 域名
-DOMAIN-SUFFIX,tracker.piggo.me                 # Tracke
+DOMAIN-SUFFIX,piggo.me                     # 域名
+DOMAIN-SUFFIX,tracker.piggo.me             # Tracke
 
 #okpt
-DOMAIN-SUFFIX,okpt.net                 # 域名
+DOMAIN-SUFFIX,okpt.net                     # 域名
 DOMAIN-SUFFIX,www.okpt.net                 # Tracke
 
 #hares
-DOMAIN-SUFFIX,club.hares.top                # 域名
+DOMAIN-SUFFIX,club.hares.top               # 域名
 
 #ptchina
-DOMAIN-SUFFIX,ptchina.org                 # 域名
+DOMAIN-SUFFIX,ptchina.org                  # 域名
 
 #okpt
-DOMAIN-SUFFIX,okpt.net                 # 域名
+DOMAIN-SUFFIX,okpt.net                     # 域名
 DOMAIN-SUFFIX,www.okpt.net                 # Tracke
 
 
 #zhuque
-DOMAIN-SUFFIX,zhuque.in                # 域名
-DOMAIN-SUFFIX,tracker.zhuque.in                 # Tracke
+DOMAIN-SUFFIX,zhuque.in                    # 域名
+DOMAIN-SUFFIX,tracker.zhuque.in            # Tracke
 
 #ilolicon
-DOMAIN-SUFFIX,share.ilolicon.com                # 域名
-DOMAIN-SUFFIX,tracker.ilolicon.cc                 # Tracke
+DOMAIN-SUFFIX,share.ilolicon.com           # 域名
+DOMAIN-SUFFIX,tracker.ilolicon.cc          # Tracke
 
 #haidan
-DOMAIN-SUFFIX,www.haidan.video                # 域名
-DOMAIN-SUFFIX,announce.haidan.video                 # Tracke
+DOMAIN-SUFFIX,www.haidan.video             # 域名
+DOMAIN-SUFFIX,announce.haidan.video        # Tracke
 
 #oshen
 DOMAIN-SUFFIX,www.oshen.win                # 域名
 
 #yemapt
 DOMAIN-SUFFIX,www.yemapt.org                # 域名
-DOMAIN-SUFFIX,tracker.yemapt.org                 # Tracke
+DOMAIN-SUFFIX,tracker.yemapt.org            # Tracke
 
 #hdvbits
-DOMAIN-SUFFIX,hdvbits.com               # 域名
+DOMAIN-SUFFIX,hdvbits.com                   # 域名
 
 #crabpt 蟹黄堡
-DOMAIN-SUFFIX,crabpt.vip                # 域名
+DOMAIN-SUFFIX,crabpt.vip                    # 域名
 
 #kufei
-DOMAIN-SUFFIX,kufei.org                # 域名
+DOMAIN-SUFFIX,kufei.org                     # 域名
 
 #ecust
 DOMAIN-SUFFIX,pt.ecust.pp.ua                # 域名
-DOMAIN-SUFFIX,ecustpt.eu.org                 # Tracke
+DOMAIN-SUFFIX,ecustpt.eu.org                # Tracke
 
 #hdcity
-DOMAIN-SUFFIX,hdcity.city                # 域名
-DOMAIN-SUFFIX,sync.leniter.org                 # Tracke
+DOMAIN-SUFFIX,hdcity.city                   # 域名
+DOMAIN-SUFFIX,sync.leniter.org              # Tracke
 
 #fsm
 
-DOMAIN-SUFFIX,connects.icu                 # Tracke
+DOMAIN-SUFFIX,connects.icu                  # Tracke
 DOMAIN-SUFFIX,nextpt.net                    # Tracke
