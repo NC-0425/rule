@@ -13,7 +13,7 @@ DOMAIN-KEYWORD,chinamobile
 
 # IP段匹配
 IP-CIDR,219.146.1.66/32,no-resolve
-IP-CIDR,192.168.188.0/24,no-resolve
+IP-CIDR,192.168.188.5
 
 # 国内DNS
 DOMAIN-SUFFIX,dns.alidns.com
