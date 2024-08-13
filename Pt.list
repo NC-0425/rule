@@ -173,11 +173,8 @@ DOMAIN-SUFFIX,announce.haidan.video
 DOMAIN-SUFFIX,www.oshen.win               
 
 # yemapt
-DOMAIN-SUFFIX,www.yemapt.org              
-DOMAIN-SUFFIX,tracker.yemapt.org          
-
-# hdvbits
-DOMAIN-SUFFIX,hdvbits.com                  
+DOMAIN-SUFFIX,yemapt.org              
+DOMAIN-SUFFIX,tracker.yemapt.org 
 
 # crabpt 蟹黄堡
 DOMAIN-SUFFIX,crabpt.vip                   
