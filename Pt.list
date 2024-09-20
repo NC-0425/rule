@@ -193,3 +193,6 @@ DOMAIN-SUFFIX,sync.leniter.org
 # fsm
 DOMAIN-SUFFIX,connects.icu                 
 DOMAIN-SUFFIX,nextpt.net                   
+
+# byr
+DOMAIN-SUFFIX,tracker.byr.pt
