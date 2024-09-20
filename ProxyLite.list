@@ -1,11 +1,14 @@
 # 代理补充列表
 
 # 域名后缀匹配
+DOMAIN,byr.pt
+
+# 域名后缀匹配
 DOMAIN-SUFFIX,qichiyu.com
 DOMAIN-SUFFIX,fsm.name
 DOMAIN-SUFFIX,star-space.net
 DOMAIN-SUFFIX,web.coo.wiki
-DOMAIN-SUFFIX,byr.pt
+
 
 # NAME: Docker
 DOMAIN,d1q6f0aelx0por.cloudfront.net
