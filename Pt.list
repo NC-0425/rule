@@ -196,3 +196,7 @@ DOMAIN-SUFFIX,nextpt.net
 
 # byr
 DOMAIN-SUFFIX,tracker.byr.pt
+
+##ptlgs
+DOMAIN-SUFFIX,ptlgs.org
+DOMAIN-SUFFIX,ptl.gs
