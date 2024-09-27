@@ -145,7 +145,8 @@ DOMAIN-SUFFIX,tracker.piggo.me
 
 # okpt
 DOMAIN-SUFFIX,okpt.net                    
-DOMAIN-SUFFIX,www.okpt.net                
+DOMAIN-SUFFIX,www.okpt.net   
+
 # hares
 DOMAIN-SUFFIX,club.hares.top              
 
@@ -202,4 +203,4 @@ DOMAIN-SUFFIX,ptlgs.org
 DOMAIN-SUFFIX,ptl.gs
 
 # star-space
-DOMAIN-SUFFIX,star-space.net/announce.php
+DOMAIN,star-space.net/announce.php
