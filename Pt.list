@@ -197,6 +197,9 @@ DOMAIN-SUFFIX,nextpt.net
 # byr
 DOMAIN-SUFFIX,tracker.byr.pt
 
-##ptlgs
+# ptlgs
 DOMAIN-SUFFIX,ptlgs.org
 DOMAIN-SUFFIX,ptl.gs
+
+# star-space
+DOMAIN-SUFFIX,star-space.net/announce.php
