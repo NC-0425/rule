@@ -2,11 +2,12 @@
 
 # 域名匹配
 DOMAIN,byr.pt
-DOMAIN,star-space.net
+
 
 # 域名后缀匹配
 DOMAIN-SUFFIX,qichiyu.com
 DOMAIN-SUFFIX,fsm.name
+DOMAIN-SUFFIX,star-space.net
 DOMAIN-SUFFIX,web.coo.wiki
 
 # 域名关键字匹配
