@@ -204,3 +204,7 @@ DOMAIN-SUFFIX,ptl.gs
 
 # star-space
 DOMAIN,star-space.net/announce.php
+
+# nanyangpt
+DOMAIN-SUFFIX,nanyangpt.com
+DOMAIN-SUFFIX,tracker.nanyangpt.com
