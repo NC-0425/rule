@@ -3,7 +3,8 @@
 # CHD 
 DOMAIN-SUFFIX,ptchdbits.co
 DOMAIN-KEYWORD,chdbits                     
-DOMAIN-SUFFIX,chdbits.xyz                  
+DOMAIN-SUFFIX,chdbits.xyz     
+DOMAIN-SUFFIX,tracker.rainbowisland.co
 
 # M-Team
 DOMAIN-SUFFIX,zp.m-team.io                 
