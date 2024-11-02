@@ -28,7 +28,11 @@ DOMAIN-KEYWORD,ourbits
 
 # hddolby
 DOMAIN-SUFFIX,hddolby.com                  
-DOMAIN-SUFFIX,t.hddolby.com               
+DOMAIN-SUFFIX,t.hddolby.com   
+
+#SSD
+DOMAIN-SUFFIX,springsunday.net
+DOMAIN-SUFFIX,on.springsunday.net
 
 # hdhome
 DOMAIN-SUFFIX,hdhome.org                   
@@ -40,7 +44,11 @@ DOMAIN-SUFFIX,tracker.keepfrds.com
 
 # totheglory
 DOMAIN-SUFFIX,totheglory.im               
-DOMAIN-SUFFIX,tracker.totheglory.im       
+DOMAIN-SUFFIX,tracker.totheglory.im  
+
+#lemonhd
+DOMAIN-SUFFIX,lemonhd.club
+DOMAIN-SUFFIX,tracker01.ilovelemonhd.me
 
 # agsvpt
 DOMAIN-SUFFIX,agsvpt.com                   
@@ -209,3 +217,7 @@ DOMAIN,star-space.net/announce.php
 # nanyangpt
 DOMAIN-SUFFIX,nanyangpt.com
 DOMAIN-SUFFIX,tracker.nanyangpt.com
+
+#hdpt
+DOMAIN-SUFFIX,hdpt.xyz
+
