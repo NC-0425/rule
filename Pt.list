@@ -19,8 +19,10 @@ DOMAIN-SUFFIX,t.audiences.me
 DOMAIN-SUFFIX,tracker.cinefiles.info       
 
 # hhanclub
-DOMAIN-SUFFIX,hhanclub.top                 
-DOMAIN-SUFFIX,tracker.hhan.club            
+DOMAIN-SUFFIX,hhanclub.top
+DOMAIN-SUFFIX,hhan.club
+DOMAIN-SUFFIX,tracker.hhan.club
+DOMAIN-SUFFIX,tracker.hhanclub.top
 
 # ourbits
 DOMAIN-SUFFIX,ourbits.club                
