@@ -63,7 +63,6 @@ DOMAIN-SUFFIX,rawgit.com
 DOMAIN-SUFFIX,rawgithub.com
 DOMAIN-SUFFIX,repo.new
 DOMAIN-SUFFIX,thegithubshop.com
-DOMAIN-SUFFIX,api.github.com
 DOMAIN-KEYWORD,github
 
 # IP段匹配
