@@ -25,6 +25,7 @@ DOMAIN-KEYWORD,themoviedb
 DOMAIN-KEYWORD,tmdb
 DOMAIN-KEYWORD,fanart
 DOMAIN-KEYWORD,hongxingdl
+DOMAIN-KEYWORD,cloudflare
 
 # NAME: Docker
 DOMAIN,d1q6f0aelx0por.cloudfront.net
@@ -38,6 +39,7 @@ DOMAIN-SUFFIX,registry-1.docker.io/v2
 DOMAIN-SUFFIX,registry-1.docker.io
 DOMAIN-SUFFIX,auth.docker.io
 DOMAIN-KEYWORD,docker
+
 
 # NAME: GitHub
 DOMAIN-SUFFIX,atom.io
