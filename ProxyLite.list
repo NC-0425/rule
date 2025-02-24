@@ -12,6 +12,7 @@ DOMAIN-SUFFIX,tmdb.org
 DOMAIN-SUFFIX,themoviedb.org
 DOMAIN-SUFFIX,webservice.fanart.tv
 DOMAIN-SUFFIX,wiki.movie-pilot.org
+DOMAIN-SUFFIX,gitbook.io
 
 # pt
 DOMAIN-SUFFIX,fsm.name
