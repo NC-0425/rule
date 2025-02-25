@@ -4,6 +4,10 @@
 # pt
 DOMAIN,byr.pt
 
+# 域名后缀匹配
+# pt
+DOMAIN-SUFFIX,fsm.name
+DOMAIN-SUFFIX,star-space.net
 
 # 域名后缀匹配
 DOMAIN-SUFFIX,qichiyu.com
@@ -14,10 +18,6 @@ DOMAIN-SUFFIX,webservice.fanart.tv
 DOMAIN-SUFFIX,wiki.movie-pilot.org
 DOMAIN-SUFFIX,gitbook.io
 DOMAIN-SUFFIX,greasyfork.org
-
-# pt
-DOMAIN-SUFFIX,fsm.name
-DOMAIN-SUFFIX,star-space.net
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
