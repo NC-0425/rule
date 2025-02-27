@@ -1,10 +1,12 @@
 # Pt列表
 
 # CHD 
-DOMAIN-SUFFIX,ptchdbits.co
-DOMAIN-KEYWORD,chdbits                     
+DOMAIN-SUFFIX,ptchdbits.co                     
 DOMAIN-SUFFIX,chdbits.xyz     
 DOMAIN-SUFFIX,tracker.rainbowisland.co
+DOMAIN-SUFFIX,chddiy.xyz
+DOMAIN-KEYWORD,chdbits
+DOMAIN-KEYWORD,chddiy
 
 # M-Team
 DOMAIN-SUFFIX,zp.m-team.io                 
