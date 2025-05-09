@@ -72,6 +72,9 @@ rule-providers:
 
   # 局域网   
   Lan: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Lan.list}
+  
+  # ChinaIpV6   
+  ChinaIpV6: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Lan.list}
 
   #广告拦截
   Reject: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Reject.list}
@@ -152,6 +155,7 @@ rules:
   - RULE-SET,AppleProxy,国外网站
   - RULE-SET,Apple,DIRECT
   - RULE-SET,Lan,DIRECT
+  - RULE-SET,ChinaIpV6,DIRECT
   - RULE-SET,Pt,DIRECT
   - RULE-SET,Direct,DIRECT
   - GEOIP,CN,DIRECT
