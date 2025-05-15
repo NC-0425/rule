@@ -34,25 +34,29 @@ proxy-groups:
 
   - {name: 手动切换, icon: https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/%24tash.png, type: select, include-all: true, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT]}
 
-  - {name: 国外网站, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png, type: select, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 手动切换]}
-
-  - {name: 国际媒体, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png, type: select, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 手动切换]}
-
-  - {name: 微软服务, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png, type: select, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 手动切换]}
-
+  - {name: Youtube, icon: https://raw.githubusercontent.com/shindgewongxj/WHATSINStash/refs/heads/main/icon/youtube.png, type: select, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 手动切换]}
+  
+  - {name: TikTok, icon: https://raw.githubusercontent.com/shindgewongxj/WHATSINStash/refs/heads/main/icon/tiktok.png, type: select, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 手动切换]}
+  
   - {name: 谷歌服务, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png, type: select, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 手动切换]}
 
   - {name: 电报消息, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png, type: select, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 手动切换]}
 
   - {name: 推特消息, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png, type: select, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 手动切换]}
  
-  - {name: AI, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png, type: select, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 手动切换]}
-
-  - {name: 游戏平台, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png, type: select, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 手动切换, DIRECT]}
+  - {name: OpenAI, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png, type: select, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 手动切换]}  
 
   - {name: Emby, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png, type: select, include-all: true, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 手动切换]}
 
   - {name: Spotify, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png, type: select, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 手动切换]}
+  
+  - {name: 游戏平台, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png, type: select, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 手动切换, DIRECT]}
+
+  - {name: 微软服务, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png, type: select, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 手动切换]}
+  
+  - {name: 国外网站, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png, type: select, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 手动切换]}
+
+  - {name: 国际媒体, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png, type: select, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 手动切换]}
 
   - {name: 兜底分流, icon: https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/friestash.png, type: select, proxies: [DIRECT, 手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点]}
 
@@ -67,6 +71,8 @@ proxy-groups:
   - {name: 日本节点, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png, type: url-test, interval: 300, include-all: true, filter: "(?i)🇯🇵|日本|东京|(\b(JP|Japan)\b)"}
 
   - {name: 台湾节点, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png, type: url-test, interval: 300, include-all: true, filter: "(?i)🇨🇳|🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)"}
+  
+  - {name: 韩国节点, icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Dark/KR.png, type: url-test, interval: 300, include-all: true, filter: "(?i)KR|首尔|韩|韓|(\b(Korea|KOR)\b)"}     
 
 rule-providers:
 
@@ -88,8 +94,13 @@ rule-providers:
   OneDrive: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/OneDrive.list}
   Github: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Github.list}
 
-  # 谷歌服务
+  # Youtube
   Youtube: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/YouTube.list}
+  
+  # TikTok
+  TikTok: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/TikTok.list}
+  
+  # 谷歌服务
   Google: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Google.list}
 
   # 电报消息
@@ -103,7 +114,7 @@ rule-providers:
   Epic: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Epic.list}
 
   # AI平台
-  AI: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/AI.list}
+  OpenAI: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/AI.list}
 
   # Emby
   Emby: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Emby.list}
@@ -117,7 +128,7 @@ rule-providers:
   Disney: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Disney.list}
   PrimeVideo: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/PrimeVideo.list}
   HBO: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/HBO.list}
-  TikTok: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/TikTok.list}
+  
 
   # 代理网站
   ProxyGFW: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/ProxyGFW.list}
@@ -131,11 +142,11 @@ rule-providers:
 
 rules:
   - RULE-SET,Reject,REJECT
-  - RULE-SET,AI,AI
+  - RULE-SET,OpenAI,OpenAI
   - RULE-SET,Github,微软服务
   - RULE-SET,OneDrive,微软服务
   - RULE-SET,Microsoft,微软服务
-  - RULE-SET,Youtube,谷歌服务
+  - RULE-SET,Youtube,Youtube
   - RULE-SET,Google,谷歌服务
   - RULE-SET,Twitter,推特消息
   - RULE-SET,Telegram,电报消息
@@ -148,7 +159,7 @@ rules:
   - RULE-SET,Disney,国际媒体
   - RULE-SET,PrimeVideo,国际媒体
   - RULE-SET,HBO,国际媒体
-  - RULE-SET,TikTok,国际媒体
+  - RULE-SET,TikTok,TikTok
   - RULE-SET,Spotify,Spotify
   - RULE-SET,ProxyGFW,国外网站
   - RULE-SET,ProxyLite,国外网站
