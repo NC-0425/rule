@@ -32,33 +32,33 @@ proxy-groups:
 
   # 分流分组
 
-  - {name: 手动切换, icon: https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/%24tash.png, type: select, include-all: true, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT]}
+  - {name: 手动切换, icon: https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/%24tash.png, type: select, include-all: true, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 韩国节点, 美国节点, DIRECT]}
 
-  - {name: Youtube, icon: https://raw.githubusercontent.com/shindgewongxj/WHATSINStash/refs/heads/main/icon/youtube.png, type: select, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 手动切换]}
+  - {name: Youtube, icon: https://raw.githubusercontent.com/shindgewongxj/WHATSINStash/refs/heads/main/icon/youtube.png, type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 韩国节点, 美国节点, 手动切换]}
   
-  - {name: TikTok, icon: https://raw.githubusercontent.com/shindgewongxj/WHATSINStash/refs/heads/main/icon/tiktok.png, type: select, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 手动切换]}
+  - {name: TikTok, icon: https://raw.githubusercontent.com/shindgewongxj/WHATSINStash/refs/heads/main/icon/tiktok.png, type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 韩国节点, 美国节点, 手动切换]}
   
-  - {name: 谷歌服务, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png, type: select, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 手动切换]}
+  - {name: 谷歌服务, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png, type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 韩国节点, 美国节点, 手动切换]}
 
-  - {name: 电报消息, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png, type: select, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 手动切换]}
+  - {name: 电报消息, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png, type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 韩国节点, 美国节点, 手动切换]}
 
-  - {name: 推特消息, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png, type: select, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 手动切换]}
+  - {name: 推特消息, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png, type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 韩国节点, 美国节点, 手动切换]}
  
-  - {name: OpenAI, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png, type: select, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 手动切换]}  
+  - {name: OpenAI, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png, type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 韩国节点, 美国节点, 手动切换]}  
 
-  - {name: Emby, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png, type: select, include-all: true, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 手动切换]}
+  - {name: Emby, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png, type: select, include-all: true, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 韩国节点, 美国节点, 手动切换]}
 
-  - {name: Spotify, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png, type: select, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 手动切换]}
+  - {name: Spotify, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png, type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 韩国节点, 美国节点, 手动切换]}
   
-  - {name: 游戏平台, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png, type: select, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 手动切换, DIRECT]}
+  - {name: 游戏平台, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png, type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 韩国节点, 美国节点, 手动切换, DIRECT]}
 
-  - {name: 微软服务, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png, type: select, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 手动切换]}
+  - {name: 微软服务, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png, type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 韩国节点, 美国节点, 手动切换]}
   
-  - {name: 国外网站, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png, type: select, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 手动切换]}
+  - {name: 国外网站, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png, type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 韩国节点, 美国节点, 手动切换]}
 
-  - {name: 国际媒体, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png, type: select, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 手动切换]}
+  - {name: 国际媒体, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png, type: select, proxies: [香港节点, 台湾节点, 日本节点, 狮城节点, 韩国节点, 美国节点, 手动切换]}
 
-  - {name: 兜底分流, icon: https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/friestash.png, type: select, proxies: [DIRECT, 手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点]}
+  - {name: 兜底分流, icon: https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/friestash.png, type: select, proxies: [DIRECT, 手动切换, 香港节点, 台湾节点, 日本节点, 狮城节点, 韩国节点, 美国节点]}
 
   # 节点地区分流
 
@@ -130,7 +130,7 @@ rule-providers:
   HBO: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/HBO.list}
   
 
-  # 代理网站
+  # 国外网站
   ProxyGFW: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/ProxyGFW.list}
   ProxyLite: {behavior: classical, format: text, interval: 86400, url: https://raw.githubusercontent.com/NC-0425/rule/main/ProxyLite.list}
 
