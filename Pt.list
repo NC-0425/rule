@@ -11,6 +11,11 @@ DOMAIN-SUFFIX,chddiy.xyz
 DOMAIN-KEYWORD,chdbits
 DOMAIN-KEYWORD,chddiy
 
+# hdsky
+DOMAIN-SUFFIX,hdsky.me
+DOMAIN-SUFFIX,hdsky.my
+DOMAIN-SUFFIX,tracker.hdsky.me
+
 # M-Team
 DOMAIN-SUFFIX,zp.m-team.io                 
 DOMAIN-KEYWORD,m-team                      
