@@ -87,10 +87,7 @@ DOMAIN-SUFFIX,t.ubits.club
 
 # tjupt
 DOMAIN-SUFFIX,tjupt.org                   
-DOMAIN-SUFFIX,tracker-public.tjupt.org    
-
-# dajiao
-DOMAIN-SUFFIX,dajiao.cyou                  
+DOMAIN-SUFFIX,tracker-public.tjupt.org 
 
 # hdtime
 DOMAIN-SUFFIX,hdtime.org                  
@@ -115,13 +112,7 @@ DOMAIN-SUFFIX,zmpt.club
 DOMAIN-SUFFIX,hdatmos.club                 
 
 # ptsbao
-DOMAIN-SUFFIX,ptsbao.club                   
-
-
-# tosky
-DOMAIN-SUFFIX,t.tosky.club                 
-DOMAIN-SUFFIX,tr.tosky.club                
-
+DOMAIN-SUFFIX,ptsbao.club  
 
 # pthome
 DOMAIN-SUFFIX,pthome.net                  
@@ -168,12 +159,7 @@ DOMAIN-SUFFIX,www.okpt.net
 DOMAIN-SUFFIX,club.hares.top              
 
 # ptchina
-DOMAIN-SUFFIX,ptchina.org               
-
-# okpt
-DOMAIN-SUFFIX,okpt.net                 
-DOMAIN-SUFFIX,www.okpt.net             
-
+DOMAIN-SUFFIX,ptchina.org   
 
 # zhuque
 DOMAIN-SUFFIX,zhuque.in                
@@ -206,11 +192,7 @@ DOMAIN-SUFFIX,ecustpt.eu.org
 
 # hdcity
 DOMAIN-SUFFIX,hdcity.city                  
-DOMAIN-SUFFIX,sync.leniter.org              
-
-# fsm
-DOMAIN-SUFFIX,connects.icu                 
-DOMAIN-SUFFIX,nextpt.net                   
+DOMAIN-SUFFIX,sync.leniter.org
 
 # byr
 DOMAIN-SUFFIX,tracker.byr.pt
@@ -224,10 +206,7 @@ DOMAIN,star-space.net/announce.php
 
 # nanyangpt
 DOMAIN-SUFFIX,nanyangpt.com
-DOMAIN-SUFFIX,tracker.nanyangpt.com
-
-# hdpt
-DOMAIN-SUFFIX,hdpt.xyz
+DOMAIN-SUFFIX,tracker.nanyangpt.com    
 
 # sunnypt
 DOMAIN-SUFFIX,sunnypt.top
