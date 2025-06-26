@@ -69,13 +69,11 @@ DOMAIN-SUFFIX,agsvpt.trackers.work
 DOMAIN-SUFFIX,tracker.agsvpt.cn           
 DOMAIN-SUFFIX,ipv6.agsvpt.cn              
 
-# leaves
-DOMAIN-SUFFIX,leaves.red                  
-DOMAIN-KEYWORD,leaves                     
-DOMAIN-SUFFIX,tracker.leaves.red          
-DOMAIN-SUFFIX,tracker2.leaves.red          
-DOMAIN-SUFFIX,tracker3.leaves.red         
-DOMAIN-SUFFIX,tracker.leaves.red          
+# cspt
+DOMAIN-SUFFIX,cspt.top 
+DOMAIN-SUFFIX,tracker.cspt.cc      
+DOMAIN-SUFFIX,tracker.cspt.date     
+DOMAIN-SUFFIX,tracker.cspt.top
 
 # pttime
 DOMAIN-SUFFIX,pttime.org                  
@@ -152,9 +150,7 @@ DOMAIN-SUFFIX,tracker.ptvicomo.net
 # hdkyl
 DOMAIN-SUFFIX,hdkyl.in                    
 DOMAIN-SUFFIX,tracker.hdkyl.in            
-DOMAIN-SUFFIX,www.hdkylin.top             
-
-
+DOMAIN-SUFFIX,www.hdkylin.top 
 
 # ultrahd
 DOMAIN-SUFFIX,ultrahd.net                  
@@ -240,4 +236,8 @@ DOMAIN-SUFFIX,tracker.sunnypt.top
 # xingyunge
 DOMAIN-SUFFIX,xingyunge.top
 DOMAIN-KEYWORD,xingyunge
+
+# si-qi
+DOMAIN-SUFFIX,si-qi.xyz
+
 
