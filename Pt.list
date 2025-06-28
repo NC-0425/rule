@@ -212,9 +212,9 @@ DOMAIN-SUFFIX,tracker.nanyangpt.com
 DOMAIN-SUFFIX,sunnypt.top
 DOMAIN-SUFFIX,tracker.sunnypt.top
 
-# xingyunge
-DOMAIN-SUFFIX,xingyunge.top
-DOMAIN-KEYWORD,xingyunge
+# xingyunge（域名需要走代理）
+DOMAIN-SUFFIX,tracker.xingyunge.sbs
+DOMAIN-SUFFIX,tracker.xingyunge.top
 
 # si-qi
 DOMAIN-SUFFIX,si-qi.xyz
