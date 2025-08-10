@@ -1,0 +1,22 @@
+# 代理补充列表
+
+
+# 域名后缀匹配
+# zox
+DOMAIN-SUFFIX,zoxfree.3767483.xyz
+DOMAIN-SUFFIX,entry.zox.show
+DOMAIN-SUFFIX,entry-cdn.zox.show
+
+# Shrek公益服
+DOMAIN-SUFFIX,public.shrekmedia.org
+
+# SNTP Media Lite 公益计划
+DOMAIN-SUFFIX,lite.cn2gias.uk
+
+# emby存档服
+DOMAIN-SUFFIX,emby.zn.al
+
+
+
+# 域名关键字匹配
+DOMAIN-KEYWORD,zox
