@@ -12,6 +12,7 @@ DOMAIN-SUFFIX,public.shrekmedia.org
 
 # SNTP Media Lite 公益计划
 DOMAIN-SUFFIX,lite.cn2gias.uk
+DOMAIN-SUFFIX,https://lite-v6.cn2gias.uk
 
 # emby存档服
 DOMAIN-SUFFIX,emby.zn.al
