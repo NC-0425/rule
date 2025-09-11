@@ -17,6 +17,9 @@ DOMAIN-SUFFIX,lite-v6.cn2gias.uk
 # emby存档服
 DOMAIN-SUFFIX,emby.zn.al
 
+# 电视台
+DOMAIN-SUFFIX,ichinosekotomi.191920.xyz
+
 
 
 # 域名关键字匹配
