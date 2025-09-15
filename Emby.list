@@ -20,8 +20,11 @@ DOMAIN-SUFFIX,emby.zn.al
 # 电视台
 DOMAIN-SUFFIX,ichinosekotomi.191920.xyz
 
- # 69云基础服
+# 69云基础服
 DOMAIN-SUFFIX,*.69yun69.com
+
+# 琉璃门
+DOMAIN-SUFFIX,emby.kongcheng666.dpdns.org
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,zox
