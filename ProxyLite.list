@@ -24,6 +24,7 @@ DOMAIN-SUFFIX,wiki.movie-pilot.org
 DOMAIN-SUFFIX,gitbook.io
 DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,pypi.org
+DOMAIN-SUFFIX,hdhive.online
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
