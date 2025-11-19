@@ -3,25 +3,12 @@
 
 # 域名后缀匹配
 # zox
-DOMAIN-SUFFIX,zoxfree.3767483.xyz
-DOMAIN-SUFFIX,entry.zox.show
-DOMAIN-SUFFIX,entry-cdn.zox.show
+#DOMAIN-SUFFIX,entry.zox.show
+#DOMAIN-SUFFIX,entry-cdn.zox.show
 
 # Shrek公益服
 #DOMAIN-SUFFIX,public.shrekmedia.org
 
-# SNTP Media Lite 公益计划
-DOMAIN-SUFFIX,lite.cn2gias.uk
-DOMAIN-SUFFIX,lite-v6.cn2gias.uk
 
-# 电视台
-DOMAIN-SUFFIX,ichinosekotomi.191920.xyz
 
-# 69云基础服
-DOMAIN-SUFFIX,*.69yun69.com
 
-# 琉璃门
-DOMAIN-SUFFIX,emby.kongcheng666.dpdns.org
-
-# 域名关键字匹配
-DOMAIN-KEYWORD,69yun69
