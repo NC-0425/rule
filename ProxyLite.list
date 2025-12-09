@@ -8,11 +8,12 @@ DOMAIN,byr.pt
 # pt
 DOMAIN-SUFFIX,pt.xingyungept.org
 DOMAIN-SUFFIX,star-space.net
-DOMAIN-SUFFIX,https://cx1.manfuz.co
-DOMAIN-SUFFIX,https://az1.halomt.com 
-DOMAIN-SUFFIX,https://cx2.manfuz.co
-DOMAIN-SUFFIX,https://az2.halomt.com
-DOMAIN-SUFFIX,https://hs1.holysalt.org
+DOMAIN-SUFFIX,cx1.manfuz.co
+DOMAIN-SUFFIX,az1.halomt.com 
+DOMAIN-SUFFIX,cx2.manfuz.co
+DOMAIN-SUFFIX,az2.halomt.com
+DOMAIN-SUFFIX,hs1.holysalt.org
+DOMAIN-SUFFIX,hdhive.com
 
 
 # 域名后缀匹配
