@@ -13,7 +13,7 @@ DOMAIN-SUFFIX,az1.halomt.com
 DOMAIN-SUFFIX,cx2.manfuz.co
 DOMAIN-SUFFIX,az2.halomt.com
 DOMAIN-SUFFIX,hs1.holysalt.org
-DOMAIN-SUFFIX,hdhive.com
+
 
 
 # 域名后缀匹配
@@ -27,6 +27,7 @@ DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,pypi.org
 DOMAIN-SUFFIX,hdhive.online
 DOMAIN-SUFFIX,一元机场.com
+DOMAIN-SUFFIX,hdhive.com
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
