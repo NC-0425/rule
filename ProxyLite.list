@@ -28,6 +28,7 @@ DOMAIN-SUFFIX,pypi.org
 DOMAIN-SUFFIX,hdhive.online
 DOMAIN-SUFFIX,一元机场.com
 DOMAIN-SUFFIX,hdhive.com
+DOMAIN-SUFFIX,hdhive.online
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
