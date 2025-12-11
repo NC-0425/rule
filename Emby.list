@@ -1,13 +1,4 @@
-# 代理补充列表
-
-
-# 域名后缀匹配
-# zox
-#DOMAIN-SUFFIX,entry.zox.show
-#DOMAIN-SUFFIX,entry-cdn.zox.show
-
-# Shrek公益服
-#DOMAIN-SUFFIX,public.shrekmedia.org
+# 规则名称: Emby代理补充
 
 # UHD
 DOMAIN-SUFFIX,global.uhdnow.com
