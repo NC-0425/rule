@@ -40,5 +40,9 @@ DOMAIN-KEYWORD,tmdb
 DOMAIN-KEYWORD,hongxingdl
 
 
+IP-CIDR,198.18.0.0/15,no-resolve
+IP-CIDR,100.64.0.0/10,no-resolve
+
+
 
 
