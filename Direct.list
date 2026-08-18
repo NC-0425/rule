@@ -18,6 +18,7 @@ IP-CIDR,114.114.115.115/32,no-resolve
 DOMAIN-KEYWORD,baidu
 DOMAIN-KEYWORD,169ol
 DOMAIN-KEYWORD,chinamobile
+DOMAIN-KEYWORD,mullvad
 
 # MyList
 # 域名后缀匹配
