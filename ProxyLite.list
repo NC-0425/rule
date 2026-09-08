@@ -1,12 +1,10 @@
 # 代理补充列表
 
-# 域名匹配
+# 域名后缀匹配
 # pt
 DOMAIN,byr.pt
 DOMAIN-SUFFIX,cc.mypt.cc
 
-# 域名后缀匹配
-# pt
 DOMAIN-SUFFIX,pt.xingyungept.org
 DOMAIN-SUFFIX,star-space.net
 DOMAIN-SUFFIX,cx1.manfuz.co
