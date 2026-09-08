@@ -3,6 +3,7 @@
 # 域名匹配
 # pt
 DOMAIN,byr.pt
+DOMAIN-SUFFIX,cc.mypt.cc
 
 # 域名后缀匹配
 # pt
@@ -13,7 +14,7 @@ DOMAIN-SUFFIX,az1.halomt.com
 DOMAIN-SUFFIX,cx2.manfuz.co
 DOMAIN-SUFFIX,az2.halomt.com
 DOMAIN-SUFFIX,hs1.holysalt.org
-DOMAIN-SUFFIX,cc.mypt.cc
+
 
 
 
