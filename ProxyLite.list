@@ -13,10 +13,7 @@ DOMAIN-SUFFIX,az1.halomt.com
 DOMAIN-SUFFIX,cx2.manfuz.co
 DOMAIN-SUFFIX,az2.halomt.com
 DOMAIN-SUFFIX,hs1.holysalt.org
-#癫影
-DOMAIN-SUFFIX,m.dian115.com
-#影巢
-DOMAIN-SUFFIX,re0.me 
+
 
 
 
@@ -31,8 +28,10 @@ DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,pypi.org
 DOMAIN-SUFFIX,hdhive.online
 DOMAIN-SUFFIX,一元机场.com
-DOMAIN-SUFFIX,hdhive.com
-DOMAIN-SUFFIX,hdhive.online
+#癫影
+DOMAIN-SUFFIX,m.dian115.com
+#影巢
+DOMAIN-SUFFIX,re0.me 
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
