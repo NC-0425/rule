@@ -4,7 +4,6 @@
 # pt
 DOMAIN,byr.pt
 DOMAIN-SUFFIX,cc.mypt.cc
-
 DOMAIN-SUFFIX,pt.xingyungept.org
 DOMAIN-SUFFIX,star-space.net
 DOMAIN-SUFFIX,cx1.manfuz.co
@@ -12,10 +11,6 @@ DOMAIN-SUFFIX,az1.halomt.com
 DOMAIN-SUFFIX,cx2.manfuz.co
 DOMAIN-SUFFIX,az2.halomt.com
 DOMAIN-SUFFIX,hs1.holysalt.org
-
-
-
-
 
 # 域名后缀匹配
 DOMAIN-SUFFIX,qichiyu.com
@@ -26,7 +21,6 @@ DOMAIN-SUFFIX,wiki.movie-pilot.org
 DOMAIN-SUFFIX,gitbook.io
 DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,pypi.org
-DOMAIN-SUFFIX,hdhive.online
 DOMAIN-SUFFIX,一元机场.com
 #癫影
 DOMAIN-SUFFIX,m.dian115.com
