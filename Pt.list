@@ -118,9 +118,7 @@ DOMAIN-SUFFIX,ptsbao.club
 # pthome
 DOMAIN-SUFFIX,pthome.net                  
 DOMAIN-SUFFIX,t.pthome.net               
-
-# soulvoice
-DOMAIN-SUFFIX,pt.soulvoice.club           
+      
 
 
 # cyanbug
@@ -152,9 +150,7 @@ DOMAIN-SUFFIX,ultrahd.net
 DOMAIN-SUFFIX,piggo.me                    
 DOMAIN-SUFFIX,tracker.piggo.me             
 
-# okpt
-DOMAIN-SUFFIX,okpt.net                    
-DOMAIN-SUFFIX,www.okpt.net   
+ 
 
 
 # ptchina
@@ -164,9 +160,7 @@ DOMAIN-SUFFIX,ptchina.org
 DOMAIN-SUFFIX,zhuque.in                
 DOMAIN-SUFFIX,tracker.zhuque.in          
 
-# ilolicon
-DOMAIN-SUFFIX,share.ilolicon.com          
-DOMAIN-SUFFIX,tracker.ilolicon.cc         
+      
 
 # haidan
 DOMAIN-SUFFIX,www.haidan.video            
@@ -185,9 +179,7 @@ DOMAIN-SUFFIX,crabpt.vip
 # kufei
 DOMAIN-SUFFIX,kufei.org                   
 
-# ecust
-DOMAIN-SUFFIX,pt.ecust.pp.ua               
-DOMAIN-SUFFIX,ecustpt.eu.org               
+           
 
 # hdcity
 DOMAIN-SUFFIX,hdcity.city                  
