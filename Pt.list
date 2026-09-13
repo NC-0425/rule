@@ -62,9 +62,7 @@ DOMAIN-SUFFIX,tracker.keepfrds.com
 DOMAIN-SUFFIX,totheglory.im               
 DOMAIN-SUFFIX,tracker.totheglory.im  
 
-# lemonhd
-DOMAIN-SUFFIX,lemonhd.club
-DOMAIN-SUFFIX,tracker01.ilovelemonhd.me
+
 
 # agsvpt
 DOMAIN-SUFFIX,agsvpt.com                   
@@ -159,8 +157,6 @@ DOMAIN-SUFFIX,tracker.piggo.me
 DOMAIN-SUFFIX,okpt.net                    
 DOMAIN-SUFFIX,www.okpt.net   
 
-# hares
-DOMAIN-SUFFIX,club.hares.top              
 
 # ptchina
 DOMAIN-SUFFIX,ptchina.org   
@@ -205,8 +201,7 @@ DOMAIN-SUFFIX,tracker.byr.pt
 DOMAIN-SUFFIX,ptlgs.org
 DOMAIN-SUFFIX,ptl.gs
 
-# star-space
-DOMAIN,star-space.net/announce.php
+
 
 # nanyangpt
 DOMAIN-SUFFIX,nanyangpt.com
