@@ -215,8 +215,6 @@ DOMAIN-SUFFIX,tracker.sunnypt.top
 OMAIN-KEYWORD,sunnypt
 
 # xingyunge（访问域名需单独设置走代理）
-DOMAIN-SUFFIX,tracker.xingyunge.sbs
-DOMAIN-SUFFIX,tracker.xingyunge.top
 DOMAIN,tracker.xingyungept.org
 
 # si-qi
