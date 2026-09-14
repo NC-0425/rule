@@ -135,8 +135,6 @@ OMAIN-KEYWORD,ptsbao
 DOMAIN-SUFFIX,pthome.net                  
 DOMAIN-SUFFIX,t.pthome.net 
 OMAIN-KEYWORD,pthome
-      
-
 
 # cyanbug
 DOMAIN-SUFFIX,cyanbug.net                  
@@ -145,11 +143,13 @@ OMAIN-KEYWORD,cyanbug
 
 # qingwa
 DOMAIN-SUFFIX,new.qingwa.pro              
-DOMAIN-SUFFIX,qingwa.com                   
+DOMAIN-SUFFIX,qingwa.com 
+DOMAIN-SUFFIX,qingwapt.com
 DOMAIN-SUFFIX,tracker.qingwa.pro          
 DOMAIN-SUFFIX,tracker.qingwapt.com        
 DOMAIN-SUFFIX,tracker.qingwapt.pro 
 OMAIN-KEYWORD,qingwa
+OMAIN-KEYWORD,qingwapt
 
 # hdkyl
 DOMAIN-SUFFIX,hdkyl.in                    
