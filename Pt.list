@@ -15,6 +15,7 @@ DOMAIN-KEYWORD,chddiy
 DOMAIN-SUFFIX,hdsky.me
 DOMAIN-SUFFIX,hdsky.my
 DOMAIN-SUFFIX,tracker.hdsky.me
+DOMAIN-KEYWORD,hdsky
 
 # M-Team
 DOMAIN-SUFFIX,zp.m-team.io                 
@@ -27,12 +28,14 @@ DOMAIN-SUFFIX,api.m-team.io
 DOMAIN-SUFFIX,audiences.me                
 DOMAIN-SUFFIX,t.audiences.me               
 DOMAIN-SUFFIX,tracker.cinefiles.info       
+DOMAIN-KEYWORD,audiences
 
 # hhanclub
 DOMAIN-SUFFIX,hhan.club
 DOMAIN-SUFFIX,hhanclub.net
 DOMAIN-SUFFIX,tracker.hhan.club
 DOMAIN-SUFFIX,tracker.hhanclub.net
+DOMAIN-KEYWORD,hhanclub
 
 # ourbits
 DOMAIN-SUFFIX,ourbits.club                
@@ -41,28 +44,32 @@ DOMAIN-KEYWORD,ourbits
 # hddolby
 DOMAIN-SUFFIX,hddolby.com                  
 DOMAIN-SUFFIX,t.hddolby.com   
+OMAIN-KEYWORD,hddolby  
 
 # pterclub
 DOMAIN-SUFFIX,pterclub.net
 DOMAIN-SUFFIX,tracker.pterclub.net
+OMAIN-KEYWORD,pterclub
 
 # SSD
 DOMAIN-SUFFIX,springsunday.net
 DOMAIN-SUFFIX,on.springsunday.net
+OMAIN-KEYWORD,springsunday
 
 # hdhome
 DOMAIN-SUFFIX,hdhome.org                   
-DOMAIN-SUFFIX,t.hdhome.org                
+DOMAIN-SUFFIX,t.hdhome.org  
+OMAIN-KEYWORD,hdhome
 
 # keepfrds
 DOMAIN-SUFFIX,pt.keepfrds.com             
-DOMAIN-SUFFIX,tracker.keepfrds.com        
+DOMAIN-SUFFIX,tracker.keepfrds.com
+OMAIN-KEYWORD,keepfrds
 
 # totheglory
 DOMAIN-SUFFIX,totheglory.im               
-DOMAIN-SUFFIX,tracker.totheglory.im  
-
-
+DOMAIN-SUFFIX,tracker.totheglory.im
+OMAIN-KEYWORD,totheglory
 
 # agsvpt
 DOMAIN-SUFFIX,agsvpt.com                   
@@ -76,111 +83,116 @@ DOMAIN-SUFFIX,cspt.top
 DOMAIN-SUFFIX,tracker.cspt.cc      
 DOMAIN-SUFFIX,tracker.cspt.date     
 DOMAIN-SUFFIX,tracker.cspt.top
+OMAIN-KEYWORD,cspt
 
 # pttime
 DOMAIN-SUFFIX,pttime.org                  
+OMAIN-KEYWORD,pttime
 
 # hdvideo
-DOMAIN-SUFFIX,hdvideo.one                 
+DOMAIN-SUFFIX,hdvideo.one
+DOMAIN-SUFFIX,hdvideo.top
+OMAIN-KEYWORD,hdvideo
 
 # ubits
 DOMAIN-SUFFIX,ubits.club                   
 DOMAIN-SUFFIX,t.ubits.club                
+OMAIN-KEYWORD,ubits
 
 # tjupt
 DOMAIN-SUFFIX,tjupt.org                   
 DOMAIN-SUFFIX,tracker-public.tjupt.org 
+OMAIN-KEYWORD,tjupt
 
 # hdtime
 DOMAIN-SUFFIX,hdtime.org                  
-DOMAIN-SUFFIX,tracker.hdtime.org           
+DOMAIN-SUFFIX,tracker.hdtime.org 
+OMAIN-KEYWORD,hdtime
 
 # hdarea
 DOMAIN-SUFFIX,hdarea.club                   
-DOMAIN-SUFFIX,tracker.hdarea.club          
+DOMAIN-SUFFIX,tracker.hdarea.club 
+OMAIN-KEYWORD,hdarea
 
 # pandapt
-DOMAIN-SUFFIX,pandapt.net                 
+DOMAIN-SUFFIX,pandapt.net  
+OMAIN-KEYWORD,pandapt
 
 # hdfans
 DOMAIN-SUFFIX,hdfans.org                   
-
+OMAIN-KEYWORD,hdfans
 
 # zmpt
 DOMAIN-SUFFIX,zmpt.cc                      
-DOMAIN-SUFFIX,zmpt.club                    
-
-# hdatmos
-DOMAIN-SUFFIX,hdatmos.club                 
+DOMAIN-SUFFIX,zmpt.club 
+OMAIN-KEYWORD,zmpt
 
 # ptsbao
 DOMAIN-SUFFIX,ptsbao.club  
+OMAIN-KEYWORD,ptsbao
 
 # pthome
 DOMAIN-SUFFIX,pthome.net                  
-DOMAIN-SUFFIX,t.pthome.net               
+DOMAIN-SUFFIX,t.pthome.net 
+OMAIN-KEYWORD,pthome
       
 
 
 # cyanbug
 DOMAIN-SUFFIX,cyanbug.net                  
 DOMAIN-SUFFIX,tracker.cyanbug.net         
-
+OMAIN-KEYWORD,cyanbug
 
 # qingwa
 DOMAIN-SUFFIX,new.qingwa.pro              
 DOMAIN-SUFFIX,qingwa.com                   
 DOMAIN-SUFFIX,tracker.qingwa.pro          
 DOMAIN-SUFFIX,tracker.qingwapt.com        
-DOMAIN-SUFFIX,tracker.qingwapt.pro         
-
-# ptvicomo
-DOMAIN-SUFFIX,ptvicomo.net                
-DOMAIN-SUFFIX,tracker.ptvicomo.net        
+DOMAIN-SUFFIX,tracker.qingwapt.pro 
+OMAIN-KEYWORD,qingwa
 
 # hdkyl
 DOMAIN-SUFFIX,hdkyl.in                    
 DOMAIN-SUFFIX,tracker.hdkyl.in            
 DOMAIN-SUFFIX,www.hdkylin.top 
+OMAIN-KEYWORD,hdkyl
 
 # ultrahd
 DOMAIN-SUFFIX,ultrahd.net                  
-
+OMAIN-KEYWORD,ultrahd
 
 # piggo
 DOMAIN-SUFFIX,piggo.me                    
 DOMAIN-SUFFIX,tracker.piggo.me             
-
- 
-
-
-# ptchina
-DOMAIN-SUFFIX,ptchina.org   
+OMAIN-KEYWORD,piggo 
 
 # zhuque
 DOMAIN-SUFFIX,zhuque.in                
 DOMAIN-SUFFIX,tracker.zhuque.in          
-
-      
+OMAIN-KEYWORD,zhuque
 
 # haidan
 DOMAIN-SUFFIX,www.haidan.video            
 DOMAIN-SUFFIX,announce.haidan.video      
+DOMAIN-SUFFIX,haidan.cc
+OMAIN-KEYWORD,haidan
 
 # oshen
-DOMAIN-SUFFIX,www.oshen.win               
+DOMAIN-SUFFIX,www.oshen.win   
+OMAIN-KEYWORD,oshen
 
 # yemapt
 DOMAIN-SUFFIX,yemapt.org              
 DOMAIN-SUFFIX,tracker.yemapt.org 
+OMAIN-KEYWORD,yemapt
 
 # crabpt 蟹黄堡
-DOMAIN-SUFFIX,crabpt.vip                   
+DOMAIN-SUFFIX,crabpt.vip  
+OMAIN-KEYWORD,crabpt
 
 # kufei
 DOMAIN-SUFFIX,kufei.org                   
-
-           
+OMAIN-KEYWORD,crabpt           
 
 # hdcity
 DOMAIN-SUFFIX,hdcity.city                  
@@ -193,8 +205,6 @@ DOMAIN-SUFFIX,tracker.byr.pt
 DOMAIN-SUFFIX,ptlgs.org
 DOMAIN-SUFFIX,ptl.gs
 
-
-
 # nanyangpt
 DOMAIN-SUFFIX,nanyangpt.com
 DOMAIN-SUFFIX,tracker.nanyangpt.com    
@@ -202,10 +212,12 @@ DOMAIN-SUFFIX,tracker.nanyangpt.com
 # sunnypt
 DOMAIN-SUFFIX,sunnypt.top
 DOMAIN-SUFFIX,tracker.sunnypt.top
+OMAIN-KEYWORD,sunnypt
 
 # xingyunge（域名需要走代理）
 DOMAIN-SUFFIX,tracker.xingyunge.sbs
 DOMAIN-SUFFIX,tracker.xingyunge.top
+DOMAIN-SUFFIX,tracker.xingyungept.org
 
 # si-qi
 DOMAIN-SUFFIX,si-qi.xyz
