@@ -3,10 +3,10 @@
 # 域名匹配
 # pt
 DOMAIN,byr.pt
+DOMAIN,pt.xingyungept.org
+DOMAIN,cc.mypt.cc
 
 # 域名后缀匹配
-DOMAIN-SUFFIX,cc.mypt.cc
-DOMAIN-SUFFIX,pt.xingyungept.org
 DOMAIN-SUFFIX,star-space.net
 DOMAIN-SUFFIX,cx1.manfuz.co
 DOMAIN-SUFFIX,az1.halomt.com 
@@ -35,6 +35,7 @@ DOMAIN-KEYWORD,coo
 DOMAIN-KEYWORD,themoviedb
 DOMAIN-KEYWORD,tmdb
 DOMAIN-KEYWORD,hongxingdl
+
 
 
 
