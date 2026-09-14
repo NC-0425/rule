@@ -199,7 +199,7 @@ DOMAIN-SUFFIX,hdcity.city
 DOMAIN-SUFFIX,sync.leniter.org
 
 # byr
-DOMAIN-SUFFIX,tracker.byr.pt
+DOMAIN,tracker.byr.pt
 
 # ptlgs
 DOMAIN-SUFFIX,ptlgs.org
