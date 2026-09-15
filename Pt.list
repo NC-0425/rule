@@ -3,7 +3,6 @@
 DOMAIN-KEYWORD,tracker
 
 # CHD 
-                 
 DOMAIN-SUFFIX,chdbits.xyz     
 DOMAIN-SUFFIX,tracker.rainbowisland.co
 DOMAIN-SUFFIX,chddiy.xyz
@@ -24,7 +23,7 @@ DOMAIN-SUFFIX,tracker.m-team.cc
 DOMAIN-SUFFIX,api.m-team.cc                
 DOMAIN-SUFFIX,api.m-team.io    
 
-# Audiences
+# Audiences (注意: 关键词 audiences 较宽泛，易误伤常规网页)
 DOMAIN-SUFFIX,audiences.me                
 DOMAIN-SUFFIX,t.audiences.me               
 DOMAIN-SUFFIX,tracker.cinefiles.info       
@@ -212,16 +211,13 @@ DOMAIN-SUFFIX,tracker.nanyangpt.com
 # sunnypt
 DOMAIN-SUFFIX,sunnypt.top
 DOMAIN-SUFFIX,tracker.sunnypt.top
-OMAIN-KEYWORD,sunnypt
+DOMAIN-KEYWORD,sunnypt
 
 # xingyunge（访问域名需单独设置走代理）
 DOMAIN,tracker.xingyungept.org
 
 # si-qi
 DOMAIN-SUFFIX,si-qi.xyz
-
-# cspt
-DOMAIN-SUFFIX,cspt.top
 
 # hdbao
 DOMAIN-SUFFIX,hdbao.cc
@@ -235,5 +231,5 @@ DOMAIN-KEYWORD,dstudio
 DOMAIN-SUFFIX,tracker.novahd.top
 DOMAIN-KEYWORD,novahd
 
-#  pt.0ff
+# pt.0ff
 DOMAIN-SUFFIX,pt.0ff.cc
