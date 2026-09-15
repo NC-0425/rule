@@ -44,32 +44,32 @@ DOMAIN-KEYWORD,ourbits
 # hddolby
 DOMAIN-SUFFIX,hddolby.com                  
 DOMAIN-SUFFIX,t.hddolby.com   
-OMAIN-KEYWORD,hddolby  
+DOMAIN-KEYWORD,hddolby  
 
 # pterclub
 DOMAIN-SUFFIX,pterclub.net
 DOMAIN-SUFFIX,tracker.pterclub.net
-OMAIN-KEYWORD,pterclub
+DOMAIN-KEYWORD,pterclub
 
 # SSD
 DOMAIN-SUFFIX,springsunday.net
 DOMAIN-SUFFIX,on.springsunday.net
-OMAIN-KEYWORD,springsunday
+DOMAIN-KEYWORD,springsunday
 
 # hdhome
 DOMAIN-SUFFIX,hdhome.org                   
 DOMAIN-SUFFIX,t.hdhome.org  
-OMAIN-KEYWORD,hdhome
+DOMAIN-KEYWORD,hdhome
 
 # keepfrds
 DOMAIN-SUFFIX,pt.keepfrds.com             
 DOMAIN-SUFFIX,tracker.keepfrds.com
-OMAIN-KEYWORD,keepfrds
+DOMAIN-KEYWORD,keepfrds
 
 # totheglory
 DOMAIN-SUFFIX,totheglory.im               
 DOMAIN-SUFFIX,tracker.totheglory.im
-OMAIN-KEYWORD,totheglory
+DOMAIN-KEYWORD,totheglory
 
 # agsvpt
 DOMAIN-SUFFIX,agsvpt.com                   
@@ -83,63 +83,63 @@ DOMAIN-SUFFIX,cspt.top
 DOMAIN-SUFFIX,tracker.cspt.cc      
 DOMAIN-SUFFIX,tracker.cspt.date     
 DOMAIN-SUFFIX,tracker.cspt.top
-OMAIN-KEYWORD,cspt
+DOMAIN-KEYWORD,cspt
 
 # pttime
 DOMAIN-SUFFIX,pttime.org                  
-OMAIN-KEYWORD,pttime
+DOMAIN-KEYWORD,pttime
 
 # hdvideo
 DOMAIN-SUFFIX,hdvideo.one
 DOMAIN-SUFFIX,hdvideo.top
-OMAIN-KEYWORD,hdvideo
+DOMAIN-KEYWORD,hdvideo
 
 # ubits
 DOMAIN-SUFFIX,ubits.club                   
 DOMAIN-SUFFIX,t.ubits.club                
-OMAIN-KEYWORD,ubits
+DOMAIN-KEYWORD,ubits
 
 # tjupt
 DOMAIN-SUFFIX,tjupt.org                   
 DOMAIN-SUFFIX,tracker-public.tjupt.org 
-OMAIN-KEYWORD,tjupt
+DOMAIN-KEYWORD,tjupt
 
 # hdtime
 DOMAIN-SUFFIX,hdtime.org                  
 DOMAIN-SUFFIX,tracker.hdtime.org 
-OMAIN-KEYWORD,hdtime
+DOMAIN-KEYWORD,hdtime
 
 # hdarea
 DOMAIN-SUFFIX,hdarea.club                   
 DOMAIN-SUFFIX,tracker.hdarea.club 
-OMAIN-KEYWORD,hdarea
+DOMAIN-KEYWORD,hdarea
 
 # pandapt
 DOMAIN-SUFFIX,pandapt.net  
-OMAIN-KEYWORD,pandapt
+DOMAIN-KEYWORD,pandapt
 
 # hdfans
 DOMAIN-SUFFIX,hdfans.org                   
-OMAIN-KEYWORD,hdfans
+DOMAIN-KEYWORD,hdfans
 
 # zmpt
 DOMAIN-SUFFIX,zmpt.cc                      
 DOMAIN-SUFFIX,zmpt.club 
-OMAIN-KEYWORD,zmpt
+DOMAIN-KEYWORD,zmpt
 
 # ptsbao
 DOMAIN-SUFFIX,ptsbao.club  
-OMAIN-KEYWORD,ptsbao
+DOMAIN-KEYWORD,ptsbao
 
 # pthome
 DOMAIN-SUFFIX,pthome.net                  
 DOMAIN-SUFFIX,t.pthome.net 
-OMAIN-KEYWORD,pthome
+DOMAIN-KEYWORD,pthome
 
 # cyanbug
 DOMAIN-SUFFIX,cyanbug.net                  
 DOMAIN-SUFFIX,tracker.cyanbug.net         
-OMAIN-KEYWORD,cyanbug
+DOMAIN-KEYWORD,cyanbug
 
 # qingwa
 DOMAIN-SUFFIX,new.qingwa.pro              
@@ -148,51 +148,51 @@ DOMAIN-SUFFIX,qingwapt.com
 DOMAIN-SUFFIX,tracker.qingwa.pro          
 DOMAIN-SUFFIX,tracker.qingwapt.com        
 DOMAIN-SUFFIX,tracker.qingwapt.pro 
-OMAIN-KEYWORD,qingwa
-OMAIN-KEYWORD,qingwapt
+DOMAIN-KEYWORD,qingwa
+DOMAIN-KEYWORD,qingwapt
 
 # hdkyl
 DOMAIN-SUFFIX,hdkyl.in                    
 DOMAIN-SUFFIX,tracker.hdkyl.in            
 DOMAIN-SUFFIX,www.hdkylin.top 
-OMAIN-KEYWORD,hdkyl
+DOMAIN-KEYWORD,hdkyl
 
 # ultrahd
 DOMAIN-SUFFIX,ultrahd.net                  
-OMAIN-KEYWORD,ultrahd
+DOMAIN-KEYWORD,ultrahd
 
 # piggo
 DOMAIN-SUFFIX,piggo.me                    
 DOMAIN-SUFFIX,tracker.piggo.me             
-OMAIN-KEYWORD,piggo 
+DOMAIN-KEYWORD,piggo 
 
 # zhuque
 DOMAIN-SUFFIX,zhuque.in                
 DOMAIN-SUFFIX,tracker.zhuque.in          
-OMAIN-KEYWORD,zhuque
+DOMAIN-KEYWORD,zhuque
 
 # haidan
 DOMAIN-SUFFIX,www.haidan.video            
 DOMAIN-SUFFIX,announce.haidan.video      
 DOMAIN-SUFFIX,haidan.cc
-OMAIN-KEYWORD,haidan
+DOMAIN-KEYWORD,haidan
 
 # oshen
 DOMAIN-SUFFIX,www.oshen.win   
-OMAIN-KEYWORD,oshen
+DOMAIN-KEYWORD,oshen
 
 # yemapt
 DOMAIN-SUFFIX,yemapt.org              
 DOMAIN-SUFFIX,tracker.yemapt.org 
-OMAIN-KEYWORD,yemapt
+DOMAIN-KEYWORD,yemapt
 
 # crabpt 蟹黄堡
 DOMAIN-SUFFIX,crabpt.vip  
-OMAIN-KEYWORD,crabpt
+DOMAIN-KEYWORD,crabpt
 
 # kufei
 DOMAIN-SUFFIX,kufei.org                   
-OMAIN-KEYWORD,crabpt           
+DOMAIN-KEYWORD,crabpt           
 
 # hdcity
 DOMAIN-SUFFIX,hdcity.city                  
@@ -225,15 +225,15 @@ DOMAIN-SUFFIX,cspt.top
 
 # hdbao
 DOMAIN-SUFFIX,hdbao.cc
-OMAIN-KEYWORD,hdbao
+DOMAIN-KEYWORD,hdbao
 
 # dstudio
 DOMAIN-SUFFIX,dstudio.me
-OMAIN-KEYWORD,dstudio
+DOMAIN-KEYWORD,dstudio
 
 # novahd
 DOMAIN-SUFFIX,tracker.novahd.top
-OMAIN-KEYWORD,novahd
+DOMAIN-KEYWORD,novahd
 
 #  pt.0ff
 DOMAIN-SUFFIX,pt.0ff.cc
