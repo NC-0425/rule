@@ -23,7 +23,7 @@ DOMAIN-SUFFIX,tracker.m-team.cc
 DOMAIN-SUFFIX,api.m-team.cc                
 DOMAIN-SUFFIX,api.m-team.io    
 
-# Audiences (注意: 关键词 audiences 较宽泛，易误伤常规网页)
+# Audiences 
 DOMAIN-SUFFIX,audiences.me                
 DOMAIN-SUFFIX,t.audiences.me               
 DOMAIN-SUFFIX,tracker.cinefiles.info       
