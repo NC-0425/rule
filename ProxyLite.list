@@ -22,7 +22,5 @@ DOMAIN-SUFFIX,m.dian115.com
 # 影巢
 DOMAIN-SUFFIX,re0.me 
 
-# 域名关键字匹配
-DOMAIN-KEYWORD,themoviedb
-DOMAIN-KEYWORD,tmdb
+
 
