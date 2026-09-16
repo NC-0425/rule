@@ -1,7 +1,10 @@
-# Pt列表
-
+# 其他
 DOMAIN-KEYWORD,tracker
+DOMAIN-KEYWORD,announce
+DOMAIN-KEYWORD,torrent
+DOMAIN-KEYWORD,yusen
 
+# Pt列表
 # CHD 
 DOMAIN-SUFFIX,chdbits.xyz     
 DOMAIN-SUFFIX,tracker.rainbowisland.co
