@@ -42,14 +42,18 @@ DOMAIN-SUFFIX,re0.me
 # ------------------------------------------
 # 5. TMDB 媒体刮削及图片 CDN (精准与后缀匹配)
 # ------------------------------------------
-# TMDB 图片 CDN 节点
+# TMDB 核心 API 与网页
+DOMAIN-KEYWORD,tmdb
+DOMAIN-KEYWORD,themoviedb
+DOMAIN-SUFFIX,tmdb.org
+DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-SUFFIX,api.tmdb.org
+DOMAIN-SUFFIX,api.themoviedb.org
+# TMDB 最新 Bunny.net 图片 CDN (2025/2026 必加)
 DOMAIN,tmdb-image-prod.b-cdn.net
 DOMAIN,tmdb-web-image-prod.b-cdn.net
-# TMDB 官方网站及 API
-DOMAIN-KEYWORD,tmdb
-DOMAIN-SUFFIX,api.tmdb.org
-DOMAIN-KEYWORD,themoviedb
-DOMAIN-SUFFIX,api.themoviedb.org
+# TMDB 传统图片服务器
+DOMAIN-SUFFIX,image.tmdb.org
 # ------------------------------------------
 # 6. IMDb 影视数据库
 # ------------------------------------------
