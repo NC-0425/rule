@@ -1,11 +1,7 @@
-# 关键词匹配
-#DOMAIN-KEYWORD,admarvel
-
-
-#域名匹配
-#AutoCAD反盗版检测网址，不存在单一固定网址 / IP，随时变动
+# 域名匹配
+# AutoCAD反盗版检测网址，不存在单一固定网址 / IP，随时变动
+# 核心反盗版/证书无效弹窗检测
 DOMAIN-SUFFIX,api.genuine.autodesk.com
-DOMAIN-SUFFIX,genuine-software.autodesk.com
 DOMAIN-SUFFIX,genuine.autodesk.com 
 DOMAIN-SUFFIX,licenses.autodesk.com
 DOMAIN-SUFFIX,accounts.autodesk.com
@@ -15,3 +11,19 @@ DOMAIN-SUFFIX,access.clic.autodesk.com
 DOMAIN-SUFFIX,clm.clic.autodesk.com
 DOMAIN-SUFFIX,registeronce.autodesk.com
 DOMAIN-SUFFIX,cur.autodesk.com
+DOMAIN-SUFFIX,genuine-software.autodesk.com
+DOMAIN-SUFFIX,genuine-software2.autodesk.com
+DOMAIN-SUFFIX,genuine-software3.autodesk.com
+
+# 许可证与身份验证核心域名（阻断后将无法在线登录和在线验证）
+DOMAIN-SUFFIX,licensing.autodesk.com
+DOMAIN-SUFFIX,licenses.autodesk.com
+DOMAIN-SUFFIX,identity.api.autodesk.com
+DOMAIN-SUFFIX,api.autodesk.com
+DOMAIN-SUFFIX,accounts.autodesk.com
+DOMAIN-SUFFIX,genuine.autodesk.com
+
+# 遥测、数据收集与统计
+DOMAIN-SUFFIX,clm.autodesk.com
+DOMAIN-SUFFIX,telemetry.autodesk.com
+DOMAIN-SUFFIX,ipm.autodesk.com
