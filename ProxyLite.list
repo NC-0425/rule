@@ -35,9 +35,9 @@ DOMAIN-SUFFIX,xn--h6qt66ax7k.com
 # ------------------------------------------
 # 4. 影视资源及相关网站 (后缀匹配)
 # ------------------------------------------
-# 癫影网移动端
+# 癫影网
 DOMAIN-SUFFIX,m.dian115.com
-# 影巢 (原站域名)
+# 影巢 
 DOMAIN-SUFFIX,re0.me 
 
 # ------------------------------------------
@@ -51,7 +51,7 @@ DOMAIN-SUFFIX,themoviedb.org
 DOMAIN-SUFFIX,tmdb.org
 
 # ------------------------------------------
-# 6. IMDb 影视数据库 (修正错误后缀)
+# 6. IMDb 影视数据库
 # ------------------------------------------
 # IMDb 票房数据网站 Box Office Mojo
 DOMAIN-SUFFIX,boxofficemojo.com
