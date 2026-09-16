@@ -1,26 +1,64 @@
-# 代理补充列表
+# ==========================================
+# 代理补充列表 (Proxy Custom Rules)
+# ==========================================
 
-# 域名匹配
-# pt
+# ------------------------------------------
+# 1. PT 站相关域名 (精准匹配)
+# ------------------------------------------
+# BYR PT (北邮人PT)
 DOMAIN,byr.pt
+# 影城 PT
 DOMAIN,cc.mypt.cc
 DOMAIN,pt.mypt.cc
+# 星云阁 PT
 DOMAIN,pt.xingyungept.org
 
-# 域名后缀匹配 (影视、配套工具及机场)
+# ------------------------------------------
+# 2. 影视配套工具及开发资源 (后缀匹配)
+# ------------------------------------------
+# MoviePilot 官方维基文档
 DOMAIN-SUFFIX,wiki.movie-pilot.org
+# GitBook 文档托管平台
 DOMAIN-SUFFIX,gitbook.io
+# Greasy Fork 用户脚本平台
 DOMAIN-SUFFIX,greasyfork.org
+# PyPI (Python 包索引，MoviePilot 及其插件依赖)
 DOMAIN-SUFFIX,pypi.org
 
-# 一元机场 
+# ------------------------------------------
+# 3. 机场域名 (后缀匹配)
+# ------------------------------------------
+# 一元机场 (中文及 Punycode 编码域名，建议两者都保留)
 DOMAIN-SUFFIX,一元机场.com
 DOMAIN-SUFFIX,xn--h6qt66ax7k.com
 
-# 癫影
+# ------------------------------------------
+# 4. 影视资源及相关网站 (后缀匹配)
+# ------------------------------------------
+# 癫影网移动端
 DOMAIN-SUFFIX,m.dian115.com
-# 影巢
+# 影巢 (原站域名)
 DOMAIN-SUFFIX,re0.me 
+
+# ------------------------------------------
+# 5. TMDB 媒体刮削及图片 CDN (精准与后缀匹配)
+# ------------------------------------------
+# TMDB 图片 CDN 节点
+DOMAIN,tmdb-image-prod.b-cdn.net
+DOMAIN,tmdb-web-image-prod.b-cdn.net
+# TMDB 官方网站及 API
+DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-SUFFIX,tmdb.org
+
+# ------------------------------------------
+# 6. IMDb 影视数据库 (修正错误后缀)
+# ------------------------------------------
+# IMDb 票房数据网站 Box Office Mojo
+DOMAIN-SUFFIX,boxofficemojo.com
+# IMDb 官方网站及相关服务
+DOMAIN-SUFFIX,imdb.com
+DOMAIN-SUFFIX,imdb.to
+DOMAIN-SUFFIX,media-imdb.com
 
 
 
