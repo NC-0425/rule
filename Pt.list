@@ -1,238 +1,282 @@
-# 其他
+# ==============================================================================
+# 常用PT中文站点、Tracker、影视配套工具及机场（2026汇总终极版，由AI生成）
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 策略说明（非常重要）：
+# 1. 将域名及Tracker 关键字强制指向「直连」（DIRECT），防止下载软件因Tracker走代理而被站点封号。
+# ------------------------------------------------------------------------------
+
+# ==============================================================================
+# 一、 全局关键字拦截（谨慎使用，易误杀普通网站，但对 PT 报载极有效）
+# ==============================================================================
+# Tracker关键字匹配
 DOMAIN-KEYWORD,tracker
 DOMAIN-KEYWORD,announce
 DOMAIN-KEYWORD,torrent
+# 其他关键字匹配
 DOMAIN-KEYWORD,yusen
 
-# Pt列表
-# CHD 
+# ==============================================================================
+# 二、 顶级 / 老牌 / 大中型综合 PT 站点
+# ==============================================================================
+# M-Team (馒头) 
+DOMAIN-SUFFIX,m-team.io
+DOMAIN-SUFFIX,m-team.cc           
+DOMAIN-KEYWORD,m-team 
+
+# HDSky (天空)
+DOMAIN-SUFFIX,hdsky.me
+DOMAIN-SUFFIX,hdsky.my
+DOMAIN-KEYWORD,hdsky
+
+# CHD (彩虹岛)
 DOMAIN-SUFFIX,chdbits.xyz     
-DOMAIN-SUFFIX,tracker.rainbowisland.co
 DOMAIN-SUFFIX,chddiy.xyz
 DOMAIN-SUFFIX,ptchdbits.co
+DOMAIN-SUFFIX,tracker.rainbowisland.co
 DOMAIN-KEYWORD,chdbits
 DOMAIN-KEYWORD,chddiy
 
-# hdsky
-DOMAIN-SUFFIX,hdsky.me
-DOMAIN-SUFFIX,hdsky.my
-DOMAIN-SUFFIX,tracker.hdsky.me
-DOMAIN-KEYWORD,hdsky
-
-# M-Team
-DOMAIN-SUFFIX,zp.m-team.io                 
-DOMAIN-KEYWORD,m-team                      
-DOMAIN-SUFFIX,tracker.m-team.cc           
-DOMAIN-SUFFIX,api.m-team.cc                
-DOMAIN-SUFFIX,api.m-team.io    
-
-# Audiences 
+# Audiences (观众)
 DOMAIN-SUFFIX,audiences.me                
-DOMAIN-SUFFIX,t.audiences.me               
-DOMAIN-SUFFIX,tracker.cinefiles.info       
+DOMAIN-SUFFIX,cinefiles.info       
 DOMAIN-KEYWORD,audiences
 
-# hhanclub
+# HHAnClub (憨憨)
 DOMAIN-SUFFIX,hhan.club
 DOMAIN-SUFFIX,hhanclub.net
-DOMAIN-SUFFIX,tracker.hhan.club
-DOMAIN-SUFFIX,tracker.hhanclub.net
 DOMAIN-KEYWORD,hhanclub
 
-# ourbits
+# Ourbits (我堡)
 DOMAIN-SUFFIX,ourbits.club                
 DOMAIN-KEYWORD,ourbits                     
 
-# hddolby
-DOMAIN-SUFFIX,hddolby.com                  
-DOMAIN-SUFFIX,t.hddolby.com   
-DOMAIN-KEYWORD,hddolby  
-
-# pterclub
-DOMAIN-SUFFIX,pterclub.net
-DOMAIN-SUFFIX,tracker.pterclub.net
-DOMAIN-KEYWORD,pterclub
-
-# SSD
-DOMAIN-SUFFIX,springsunday.net
-DOMAIN-SUFFIX,on.springsunday.net
-DOMAIN-KEYWORD,springsunday
-
-# hdhome
-DOMAIN-SUFFIX,hdhome.org                   
-DOMAIN-SUFFIX,t.hdhome.org  
-DOMAIN-KEYWORD,hdhome
-
-# keepfrds
-DOMAIN-SUFFIX,pt.keepfrds.com             
-DOMAIN-SUFFIX,tracker.keepfrds.com
-DOMAIN-KEYWORD,keepfrds
-
-# totheglory
+# TTG (听听歌)
 DOMAIN-SUFFIX,totheglory.im               
-DOMAIN-SUFFIX,tracker.totheglory.im
 DOMAIN-KEYWORD,totheglory
 
-# agsvpt
-DOMAIN-SUFFIX,agsvpt.com                   
-DOMAIN-KEYWORD,agsvpt                     
-DOMAIN-SUFFIX,agsvpt.trackers.work         
-DOMAIN-SUFFIX,tracker.agsvpt.cn           
-DOMAIN-SUFFIX,ipv6.agsvpt.cn              
+# PterClub (猫站)
+DOMAIN-SUFFIX,pterclub.net
+DOMAIN-KEYWORD,pterclub
 
-# cspt
-DOMAIN-SUFFIX,cspt.top 
-DOMAIN-SUFFIX,tracker.cspt.cc      
-DOMAIN-SUFFIX,tracker.cspt.date     
-DOMAIN-SUFFIX,tracker.cspt.top
-DOMAIN-KEYWORD,cspt
+# SSD (春天)
+DOMAIN-SUFFIX,springsunday.net
+DOMAIN-KEYWORD,springsunday
 
-# pttime
+# HDHome (家园)
+DOMAIN-SUFFIX,hdhome.org                   
+DOMAIN-KEYWORD,hdhome
+
+# KeepFRDS (朋友)
+DOMAIN-SUFFIX,keepfrds.com             
+DOMAIN-KEYWORD,keepfrds
+
+# OpenCD (皇后/华语无损音乐)
+DOMAIN-SUFFIX,opencd.org
+DOMAIN-KEYWORD,opencd
+
+# ==============================================================================
+# 三、 垂直及主流中型站点
+# ==============================================================================
+# UBits (U堡)
+DOMAIN-SUFFIX,ubits.club  
+DOMAIN-KEYWORD,ubits
+
+# SunnyPT (阳光)
+DOMAIN-SUFFIX,sunnypt.top
+DOMAIN-KEYWORD,sunnypt
+
+# PTTime (PT时间)
 DOMAIN-SUFFIX,pttime.org                  
 DOMAIN-KEYWORD,pttime
 
-# hdvideo
-DOMAIN-SUFFIX,hdvideo.one
-DOMAIN-SUFFIX,hdvideo.top
-DOMAIN-KEYWORD,hdvideo
-
-# ubits
-DOMAIN-SUFFIX,ubits.club                   
-DOMAIN-SUFFIX,t.ubits.club                
-DOMAIN-KEYWORD,ubits
-
-# tjupt
-DOMAIN-SUFFIX,tjupt.org                   
-DOMAIN-SUFFIX,tracker-public.tjupt.org 
-DOMAIN-KEYWORD,tjupt
-
-# hdtime
+# HDTime (时光)
 DOMAIN-SUFFIX,hdtime.org                  
-DOMAIN-SUFFIX,tracker.hdtime.org 
 DOMAIN-KEYWORD,hdtime
 
-# hdarea
+# HDArea (好大)
 DOMAIN-SUFFIX,hdarea.club                   
-DOMAIN-SUFFIX,tracker.hdarea.club 
 DOMAIN-KEYWORD,hdarea
 
-# pandapt
-DOMAIN-SUFFIX,pandapt.net  
-DOMAIN-KEYWORD,pandapt
-
-# hdfans
+# HDFans (红豆饭)
 DOMAIN-SUFFIX,hdfans.org                   
 DOMAIN-KEYWORD,hdfans
 
-# zmpt
+# HDDolby (杜比)
+DOMAIN-SUFFIX,hddolby.com                  
+DOMAIN-KEYWORD,hddolby 
+
+# AGSVPT (末日)
+DOMAIN-SUFFIX,agsvpt.com                   
+DOMAIN-SUFFIX,trackers.work         
+DOMAIN-SUFFIX,agsvpt.cn              
+DOMAIN-KEYWORD,agsvpt 
+
+# HDVideo (高清视频)
+DOMAIN-SUFFIX,hdvideo.top
+DOMAIN-KEYWORD,hdvideo
+
+# PandaPT (熊猫)
+DOMAIN-SUFFIX,pandapt.net  
+DOMAIN-KEYWORD,pandapt
+
+# ZMPT (织梦)
 DOMAIN-SUFFIX,zmpt.cc                      
 DOMAIN-SUFFIX,zmpt.club 
 DOMAIN-KEYWORD,zmpt
 
-# ptsbao
+# PTSBao (骚包)
 DOMAIN-SUFFIX,ptsbao.club  
 DOMAIN-KEYWORD,ptsbao
 
-# pthome
+# PTHome (铂金家)
 DOMAIN-SUFFIX,pthome.net                  
-DOMAIN-SUFFIX,t.pthome.net 
 DOMAIN-KEYWORD,pthome
 
-# cyanbug
-DOMAIN-SUFFIX,cyanbug.net                  
-DOMAIN-SUFFIX,tracker.cyanbug.net         
-DOMAIN-KEYWORD,cyanbug
-
-# qingwa
-DOMAIN-SUFFIX,new.qingwa.pro              
+# Qingwa (青蛙)
+DOMAIN-SUFFIX,qingwa.pro              
 DOMAIN-SUFFIX,qingwa.com 
 DOMAIN-SUFFIX,qingwapt.com
-DOMAIN-SUFFIX,tracker.qingwa.pro          
-DOMAIN-SUFFIX,tracker.qingwapt.com        
-DOMAIN-SUFFIX,tracker.qingwapt.pro 
+DOMAIN-SUFFIX,qingwapt.pro 
 DOMAIN-KEYWORD,qingwa
 DOMAIN-KEYWORD,qingwapt
 
-# hdkyl
+# HDCity (城市)
+DOMAIN-SUFFIX,hdcity.city 
+
+# PTZone (空间)
+DOMAIN-SUFFIX,ptzone.xyz
+DOMAIN-KEYWORD,ptzone
+
+# BTSchool (学校)
+DOMAIN-SUFFIX,btschool.club
+DOMAIN-KEYWORD,btschool
+
+# HDRoute (思路)
+DOMAIN-SUFFIX,hdroute.org
+DOMAIN-KEYWORD,hdroute
+
+# 52pt (我爱PT)
+DOMAIN-SUFFIX,52pt.site
+DOMAIN-KEYWORD,52pt
+
+# ==============================================================================
+# 四、 垂直特色站（动漫、音乐、汽车、港片、书籍、有声等）
+# ==============================================================================
+# U2 (幼儿园)
+DOMAIN-SUFFIX,u2.dmhy.org
+DOMAIN-KEYWORD,dmhy
+
+# xloli (萝莉)
+DOMAIN-SUFFIX,xloli.cc
+DOMAIN-SUFFIX,x-anime.cc
+
+# DiscFan (碟粉/港知堂/老港片顶流)
+DOMAIN-SUFFIX,discfan.net
+DOMAIN-KEYWORD,discfan
+
+# DICMusic (海豚/音乐大站)
+DOMAIN-SUFFIX,dicmusic.club
+DOMAIN-KEYWORD,dicmusic
+
+# soulvoice (铃音)
+DOMAIN-SUFFIX,pt.soulvoice.club
+DOMAIN-KEYWORD,soulvoice 
+
+# Si-Qi (思齐)
+DOMAIN-SUFFIX,si-qi.xyz
+
+# CarPT (车站)
+DOMAIN-SUFFIX,carpt.net
+DOMAIN-KEYWORD,carpt
+
+# Piggo (猪猪)
+DOMAIN-SUFFIX,piggo.me                    
+DOMAIN-KEYWORD,piggo 
+
+
+# ==============================================================================
+# 五、 中小型、新晋及特色小站
+# ==============================================================================
+
+# CSPT (财神)
+DOMAIN-SUFFIX,cspt.top 
+DOMAIN-SUFFIX,cspt.cc      
+DOMAIN-SUFFIX,cspt.date     
+DOMAIN-KEYWORD,cspt
+
+# CyanBug (大青虫)
+DOMAIN-SUFFIX,cyanbug.net                  
+DOMAIN-KEYWORD,cyanbug
+
+# HDKylin (麒麟)
 DOMAIN-SUFFIX,hdkyl.in                    
-DOMAIN-SUFFIX,tracker.hdkyl.in            
-DOMAIN-SUFFIX,www.hdkylin.top 
+DOMAIN-SUFFIX,hdkylin.top 
 DOMAIN-KEYWORD,hdkyl
 
-# ultrahd
+# UltraHD (韩剧高清站)
 DOMAIN-SUFFIX,ultrahd.net                  
 DOMAIN-KEYWORD,ultrahd
 
-# piggo
-DOMAIN-SUFFIX,piggo.me                    
-DOMAIN-SUFFIX,tracker.piggo.me             
-DOMAIN-KEYWORD,piggo 
-
-# zhuque
+# ZhuQue (朱雀)
 DOMAIN-SUFFIX,zhuque.in                
-DOMAIN-SUFFIX,tracker.zhuque.in          
 DOMAIN-KEYWORD,zhuque
 
-# haidan
-DOMAIN-SUFFIX,www.haidan.video            
-DOMAIN-SUFFIX,announce.haidan.video      
+# HaiDan (海胆)         
 DOMAIN-SUFFIX,haidan.cc
 DOMAIN-KEYWORD,haidan
 
-# oshen
-DOMAIN-SUFFIX,www.oshen.win   
+# OshenPT (奥神)
+DOMAIN-SUFFIX,oshen.win   
 DOMAIN-KEYWORD,oshen
 
-# yemapt
+# YeMaPT (野马)
 DOMAIN-SUFFIX,yemapt.org              
-DOMAIN-SUFFIX,tracker.yemapt.org 
 DOMAIN-KEYWORD,yemapt
 
-# crabpt 蟹黄堡
+# CrabPT (蟹黄堡)
 DOMAIN-SUFFIX,crabpt.vip  
 DOMAIN-KEYWORD,crabpt
 
-# kufei
+# KuFei (库非)
 DOMAIN-SUFFIX,kufei.org                   
 DOMAIN-KEYWORD,kufei           
 
-# hdcity
-DOMAIN-SUFFIX,hdcity.city                  
-DOMAIN-SUFFIX,sync.leniter.org
-
-# byr
-DOMAIN,tracker.byr.pt
-
-# ptlgs
+# PTLGS (雷公山)
 DOMAIN-SUFFIX,ptlgs.org
 DOMAIN-SUFFIX,ptl.gs
 
-# nanyangpt
-DOMAIN-SUFFIX,nanyangpt.com
-DOMAIN-SUFFIX,tracker.nanyangpt.com    
+# XingYunGe (星陨阁)
+DOMAIN-SUFFIX,xingyungept.org
 
-# sunnypt
-DOMAIN-SUFFIX,sunnypt.top
-DOMAIN-SUFFIX,tracker.sunnypt.top
-DOMAIN-KEYWORD,sunnypt
-
-# xingyunge（访问域名需单独设置走代理）
-DOMAIN,tracker.xingyungept.org
-
-# si-qi
-DOMAIN-SUFFIX,si-qi.xyz
-
-# hdbao
+# HDBao (红豆包)
 DOMAIN-SUFFIX,hdbao.cc
 DOMAIN-KEYWORD,hdbao
 
-# dstudio
+# DStudio (大空间)
 DOMAIN-SUFFIX,dstudio.me
 DOMAIN-KEYWORD,dstudio
 
-# novahd
-DOMAIN-SUFFIX,tracker.novahd.top
+# NovaHD (新星)
+DOMAIN-SUFFIX,novahd.top
 DOMAIN-KEYWORD,novahd
 
-# pt.0ff
+# PT.0ff (自由农场)
 DOMAIN-SUFFIX,pt.0ff.cc
+
+# ==============================================================================
+# 六、 教育网 / 高校 IPv6 特色站点
+# ==============================================================================
+# BYR (北邮人，访问域名非教育网需单独走代理)
+DOMAIN,tracker.byr.pt
+
+# TJUPT (北洋)
+DOMAIN-SUFFIX,tjupt.org                   
+DOMAIN-KEYWORD,tjupt
+
+# NanYangPT (南洋)
+DOMAIN-SUFFIX,nanyangpt.com
+DOMAIN-KEYWORD,nanyangpt
+
+
