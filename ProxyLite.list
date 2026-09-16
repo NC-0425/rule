@@ -28,9 +28,12 @@ DOMAIN-SUFFIX,pypi.org
 # ------------------------------------------
 # 3. 机场域名 (后缀匹配)
 # ------------------------------------------
-# 一元机场 (中文及 Punycode 编码域名，建议两者都保留)
 DOMAIN-SUFFIX,一元机场.com
 DOMAIN-SUFFIX,xn--h6qt66ax7k.com
+DOMAIN-SUFFIX,dash.ouonetwork.com
+DOMAIN-SUFFIX,52pokemon.cc
+DOMAIN-SUFFIX,101ghost.com
+DOMAIN-SUFFIX,赔钱机场.com
 
 # ------------------------------------------
 # 4. 影视资源及相关网站 (后缀匹配)
