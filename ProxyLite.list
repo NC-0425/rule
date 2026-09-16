@@ -12,7 +12,6 @@ DOMAIN,cc.mypt.cc
 DOMAIN,pt.mypt.cc
 # 星陨阁 PT
 DOMAIN,pt.xingyungept.org
-
 # ------------------------------------------
 # 2. 影视配套工具及开发资源 (后缀匹配)
 # ------------------------------------------
@@ -24,7 +23,6 @@ DOMAIN-SUFFIX,gitbook.io
 DOMAIN-SUFFIX,greasyfork.org
 # PyPI (Python 包索引，MoviePilot 及其插件依赖)
 DOMAIN-SUFFIX,pypi.org
-
 # ------------------------------------------
 # 3. 机场域名 (后缀匹配)
 # ------------------------------------------
@@ -34,7 +32,6 @@ DOMAIN-SUFFIX,dash.ouonetwork.com
 DOMAIN-SUFFIX,52pokemon.cc
 DOMAIN-SUFFIX,101ghost.com
 DOMAIN-SUFFIX,赔钱机场.com
-
 # ------------------------------------------
 # 4. 影视资源及相关网站 (后缀匹配)
 # ------------------------------------------
@@ -42,7 +39,6 @@ DOMAIN-SUFFIX,赔钱机场.com
 DOMAIN-SUFFIX,m.dian115.com
 # 影巢 
 DOMAIN-SUFFIX,re0.me 
-
 # ------------------------------------------
 # 5. TMDB 媒体刮削及图片 CDN (精准与后缀匹配)
 # ------------------------------------------
@@ -50,11 +46,8 @@ DOMAIN-SUFFIX,re0.me
 DOMAIN,tmdb-image-prod.b-cdn.net
 DOMAIN,tmdb-web-image-prod.b-cdn.net
 # TMDB 官方网站及 API
-DOMAIN-SUFFIX,tmdb.org
 DOMAIN-KEYWORD,tmdb
-DOMAIN-SUFFIX,themoviedb.org
 DOMAIN-KEYWORD,themoviedb
-
 # ------------------------------------------
 # 6. IMDb 影视数据库
 # ------------------------------------------
