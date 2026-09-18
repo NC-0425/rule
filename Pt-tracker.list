@@ -112,10 +112,11 @@ DOMAIN-SUFFIX,hddolby.com
 DOMAIN-KEYWORD,hddolby 
 
 # AGSVPT (末日)
-DOMAIN-SUFFIX,agsvpt.com                   
-DOMAIN-SUFFIX,trackers.work         
-DOMAIN-SUFFIX,agsvpt.cn              
-DOMAIN-KEYWORD,agsvpt 
+DOMAIN-SUFFIX,agsvpt.com
+DOMAIN-SUFFIX,agsvpt.cn
+DOMAIN-SUFFIX,agsvpt.work 
+DOMAIN-SUFFIX,trackers.work
+DOMAIN-KEYWORD,agsvpt
 
 # HDVideo (高清视频)
 DOMAIN-SUFFIX,hdvideo.top
