@@ -34,12 +34,11 @@ DOMAIN-SUFFIX,hdsky.my
 DOMAIN-KEYWORD,hdsky
 
 # CHD (彩虹岛)
-DOMAIN-SUFFIX,chdbits.xyz     
-DOMAIN-SUFFIX,chddiy.xyz
+DOMAIN-SUFFIX,chdbits.xyz
 DOMAIN-SUFFIX,ptchdbits.co
 DOMAIN-SUFFIX,tracker.rainbowisland.co
 DOMAIN-KEYWORD,chdbits
-DOMAIN-KEYWORD,chddiy
+DOMAIN-KEYWORD,ptchdbits
 
 # Audiences (观众)
 DOMAIN-SUFFIX,audiences.me                
