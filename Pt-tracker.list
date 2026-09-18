@@ -247,7 +247,7 @@ DOMAIN-KEYWORD,crabpt
 DOMAIN-SUFFIX,kufei.org                   
 DOMAIN-KEYWORD,kufei           
 
-# PTLGS (雷公山)
+# PTLGS (PT劳改所)
 DOMAIN-SUFFIX,ptlgs.org
 DOMAIN-SUFFIX,ptl.gs
 
@@ -258,11 +258,11 @@ DOMAIN-SUFFIX,tracker.xingyungept.org
 DOMAIN-SUFFIX,hdbao.cc
 DOMAIN-KEYWORD,hdbao
 
-# DStudio (大空间)
+# DStudio 
 DOMAIN-SUFFIX,dstudio.me
 DOMAIN-KEYWORD,dstudio
 
-# NovaHD (新星)
+# NovaHD
 DOMAIN-SUFFIX,novahd.top
 DOMAIN-KEYWORD,novahd
 
