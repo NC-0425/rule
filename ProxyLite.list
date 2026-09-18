@@ -63,6 +63,5 @@ DOMAIN-SUFFIX,boxofficemojo.com
 DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,imdb.to
 DOMAIN-SUFFIX,media-imdb.com
-
-
-
+DOMAIN-SUFFIX,media-amazon.com
+DOMAIN-SUFFIX,api.tiffara.com
