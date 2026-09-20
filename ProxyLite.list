@@ -26,7 +26,6 @@ DOMAIN-SUFFIX,pypi.org
 # ------------------------------------------
 # 3. 机场域名 (后缀匹配)
 # ------------------------------------------
-DOMAIN-SUFFIX,一元机场.com
 DOMAIN-SUFFIX,xn--h6qt66ax7k.com
 DOMAIN-SUFFIX,dash.ouonetwork.com
 DOMAIN-SUFFIX,52pokemon.cc
