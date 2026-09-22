@@ -1,0 +1,195 @@
+{
+  "$schema": "https://sing-box.sagernet.org/schema.json",
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "type": "local",
+        "tag": "local-dns"
+      },
+      {
+        "type": "https",
+        "tag": "proxy-dns",
+        "server": "1.1.1.1",
+        "server_port": 443,
+        "detour": "WARP-USQUE"
+      }
+    ],
+    "rules": [
+      {
+        "rule_set": [
+          "geosite-cn",
+          "geoip-cn"
+        ],
+        "action": "route",
+        "server": "local-dns"
+      }
+    ],
+    "final": "proxy-dns"
+  },
+  "http_clients": [
+    {
+      "tag": "rule-download",
+      "engine": "go",
+      "version": 2,
+      "detour": "direct"
+    }
+  ],
+  "inbounds": [
+    {
+      "type": "mixed",
+      "tag": "mixed-in",
+      "listen": "127.0.0.1",
+      "listen_port": 2080
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "socks",
+      "tag": "WARP-USQUE",
+      "server": "127.0.0.1",
+      "server_port": 1080,
+      "version": "5"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    }
+  ],
+  "route": {
+    "auto_detect_interface": true,
+    "default_domain_resolver": "local-dns",
+    "default_http_client": "rule-download",
+    "rule_set": [
+      {
+        "type": "remote",
+        "tag": "geosite-category-ads-all",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-ads-all.srs",
+        "http_client": "rule-download",
+        "update_interval": "1d"
+      },
+      {
+        "type": "remote",
+        "tag": "geosite-cn",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cn.srs",
+        "http_client": "rule-download",
+        "update_interval": "1d"
+      },
+      {
+        "type": "remote",
+        "tag": "geosite-geolocation-!cn",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-geolocation-!cn.srs",
+        "http_client": "rule-download",
+        "update_interval": "1d"
+      },
+      {
+        "type": "remote",
+        "tag": "geosite-category-ai-!cn",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-ai-!cn.srs",
+        "http_client": "rule-download",
+        "update_interval": "1d"
+      },
+      {
+        "type": "remote",
+        "tag": "geosite-youtube",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-youtube.srs",
+        "http_client": "rule-download",
+        "update_interval": "1d"
+      },
+      {
+        "type": "remote",
+        "tag": "geosite-google",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-google.srs",
+        "http_client": "rule-download",
+        "update_interval": "1d"
+      },
+      {
+        "type": "remote",
+        "tag": "geosite-telegram",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-telegram.srs",
+        "http_client": "rule-download",
+        "update_interval": "1d"
+      },
+      {
+        "type": "remote",
+        "tag": "geosite-netflix",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-netflix.srs",
+        "http_client": "rule-download",
+        "update_interval": "1d"
+      },
+      {
+        "type": "remote",
+        "tag": "geosite-github",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-github.srs",
+        "http_client": "rule-download",
+        "update_interval": "1d"
+      },
+      {
+        "type": "remote",
+        "tag": "geoip-private",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-private.srs",
+        "http_client": "rule-download",
+        "update_interval": "1d"
+      },
+      {
+        "type": "remote",
+        "tag": "geoip-cn",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",
+        "http_client": "rule-download",
+        "update_interval": "1d"
+      }
+    ],
+    "rules": [
+      {
+        "rule_set": "geosite-category-ads-all",
+        "action": "reject"
+      },
+      {
+        "rule_set": "geoip-private",
+        "action": "route",
+        "outbound": "direct"
+      },
+      {
+        "rule_set": [
+          "geosite-cn",
+          "geoip-cn"
+        ],
+        "action": "route",
+        "outbound": "direct"
+      },
+      {
+        "rule_set": [
+          "geosite-category-ai-!cn",
+          "geosite-youtube",
+          "geosite-google",
+          "geosite-telegram",
+          "geosite-netflix",
+          "geosite-github",
+          "geosite-geolocation-!cn"
+        ],
+        "action": "route",
+        "outbound": "WARP-USQUE"
+      }
+    ],
+    "final": "WARP-USQUE"
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true
+    }
+  }
+}
