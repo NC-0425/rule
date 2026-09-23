@@ -23,10 +23,10 @@ DOMAIN-KEYWORD,yusen
 # 二、 顶级 / 老牌 / 大中型综合 PT 站点
 # ==============================================================================
 
-# M-Team (馒头) 
+# M-Team (馒头)
 DOMAIN-SUFFIX,m-team.io
-DOMAIN-SUFFIX,m-team.cc           
-DOMAIN-KEYWORD,m-team 
+DOMAIN-SUFFIX,m-team.cc
+DOMAIN-KEYWORD,m-team
 
 # HDSky (天空)
 DOMAIN-SUFFIX,hdsky.me
@@ -36,26 +36,26 @@ DOMAIN-KEYWORD,hdsky
 # CHD (彩虹岛)
 DOMAIN-SUFFIX,chdbits.xyz
 DOMAIN-SUFFIX,ptchdbits.co
-DOMAIN-SUFFIX,tracker.rainbowisland.co
+DOMAIN,tracker.rainbowisland.co
 DOMAIN-KEYWORD,chdbits
 DOMAIN-KEYWORD,ptchdbits
 
 # Audiences (观众)
-DOMAIN-SUFFIX,audiences.me                
-DOMAIN-SUFFIX,cinefiles.info       
+DOMAIN-SUFFIX,audiences.me
+DOMAIN-SUFFIX,cinefiles.info
 DOMAIN-KEYWORD,audiences
 
 # HHAnClub (憨憨)
 DOMAIN-SUFFIX,hhanclub.net
-DOMAIN-SUFFIX,tracker.hhanclub.net
+DOMAIN,tracker.hhanclub.net
 DOMAIN-KEYWORD,hhanclub
 
 # Ourbits (我堡)
-DOMAIN-SUFFIX,ourbits.club                
-DOMAIN-KEYWORD,ourbits                     
+DOMAIN-SUFFIX,ourbits.club
+DOMAIN-KEYWORD,ourbits
 
 # TTG (听听歌)
-DOMAIN-SUFFIX,totheglory.im               
+DOMAIN-SUFFIX,totheglory.im
 DOMAIN-KEYWORD,totheglory
 
 # PterClub (猫站)
@@ -67,11 +67,11 @@ DOMAIN-SUFFIX,springsunday.net
 DOMAIN-KEYWORD,springsunday
 
 # HDHome (家园)
-DOMAIN-SUFFIX,hdhome.org                   
+DOMAIN-SUFFIX,hdhome.org
 DOMAIN-KEYWORD,hdhome
 
 # KeepFRDS (朋友)
-DOMAIN-SUFFIX,keepfrds.com             
+DOMAIN-SUFFIX,keepfrds.com
 DOMAIN-KEYWORD,keepfrds
 
 # OpenCD (皇后/华语无损音乐)
@@ -83,7 +83,7 @@ DOMAIN-KEYWORD,opencd
 # ==============================================================================
 
 # UBits (U堡)
-DOMAIN-SUFFIX,ubits.club  
+DOMAIN-SUFFIX,ubits.club
 DOMAIN-KEYWORD,ubits
 
 # SunnyPT (阳光)
@@ -91,29 +91,29 @@ DOMAIN-SUFFIX,sunnypt.top
 DOMAIN-KEYWORD,sunnypt
 
 # PTTime (PT时间)
-DOMAIN-SUFFIX,pttime.org                  
+DOMAIN-SUFFIX,pttime.org
 DOMAIN-KEYWORD,pttime
 
 # HDTime (时光)
-DOMAIN-SUFFIX,hdtime.org                  
+DOMAIN-SUFFIX,hdtime.org
 DOMAIN-KEYWORD,hdtime
 
 # HDArea (好大)
-DOMAIN-SUFFIX,hdarea.club                   
+DOMAIN-SUFFIX,hdarea.club
 DOMAIN-KEYWORD,hdarea
 
 # HDFans (红豆饭)
-DOMAIN-SUFFIX,hdfans.org                   
+DOMAIN-SUFFIX,hdfans.org
 DOMAIN-KEYWORD,hdfans
 
 # HDDolby (杜比)
-DOMAIN-SUFFIX,hddolby.com                  
-DOMAIN-KEYWORD,hddolby 
+DOMAIN-SUFFIX,hddolby.com
+DOMAIN-KEYWORD,hddolby
 
 # AGSVPT (末日)
 DOMAIN-SUFFIX,agsvpt.com
 DOMAIN-SUFFIX,agsvpt.cn
-DOMAIN-SUFFIX,agsvpt.work 
+DOMAIN-SUFFIX,agsvpt.work
 DOMAIN-SUFFIX,trackers.work
 DOMAIN-KEYWORD,agsvpt
 
@@ -122,32 +122,32 @@ DOMAIN-SUFFIX,hdvideo.top
 DOMAIN-KEYWORD,hdvideo
 
 # PandaPT (熊猫)
-DOMAIN-SUFFIX,pandapt.net  
+DOMAIN-SUFFIX,pandapt.net
 DOMAIN-KEYWORD,pandapt
 
 # ZMPT (织梦)
-DOMAIN-SUFFIX,zmpt.cc                      
-DOMAIN-SUFFIX,zmpt.club 
+DOMAIN-SUFFIX,zmpt.cc
+DOMAIN-SUFFIX,zmpt.club
 DOMAIN-KEYWORD,zmpt
 
 # PTSBao (骚包)
-DOMAIN-SUFFIX,ptsbao.club  
+DOMAIN-SUFFIX,ptsbao.club
 DOMAIN-KEYWORD,ptsbao
 
 # PTHome (铂金家)
-DOMAIN-SUFFIX,pthome.net                  
+DOMAIN-SUFFIX,pthome.net
 DOMAIN-KEYWORD,pthome
 
 # Qingwa (青蛙)
-DOMAIN-SUFFIX,qingwa.pro              
-DOMAIN-SUFFIX,qingwa.com 
+DOMAIN-SUFFIX,qingwa.pro
+DOMAIN-SUFFIX,qingwa.com
 DOMAIN-SUFFIX,qingwapt.com
-DOMAIN-SUFFIX,qingwapt.pro 
+DOMAIN-SUFFIX,qingwapt.pro
 DOMAIN-KEYWORD,qingwa
 DOMAIN-KEYWORD,qingwapt
 
 # HDCity (城市)
-DOMAIN-SUFFIX,hdcity.city 
+DOMAIN-SUFFIX,hdcity.city
 
 # PTZone (空间)
 DOMAIN-SUFFIX,ptzone.xyz
@@ -166,7 +166,7 @@ DOMAIN-SUFFIX,52pt.site
 DOMAIN-KEYWORD,52pt
 
 # ==============================================================================
-# 四、 垂直特色站（动漫、音乐、汽车、港片、书籍、有声等）
+# 四、 垂直特色站（动漫, 音乐, 汽车, 港片, 书籍, 有声等）
 # ==============================================================================
 
 # U2 (幼儿园)
@@ -187,7 +187,7 @@ DOMAIN-KEYWORD,dicmusic
 
 # soulvoice (铃音)
 DOMAIN-SUFFIX,pt.soulvoice.club
-DOMAIN-KEYWORD,soulvoice 
+DOMAIN-KEYWORD,soulvoice
 
 # Si-Qi (思齐)
 DOMAIN-SUFFIX,si-qi.xyz
@@ -197,68 +197,68 @@ DOMAIN-SUFFIX,carpt.net
 DOMAIN-KEYWORD,carpt
 
 # Piggo (猪猪)
-DOMAIN-SUFFIX,piggo.me                    
-DOMAIN-KEYWORD,piggo 
+DOMAIN-SUFFIX,piggo.me
+DOMAIN-KEYWORD,piggo
 
 # ==============================================================================
 # 五、 中小型、新晋及特色小站
 # ==============================================================================
 
 # CSPT (财神)
-DOMAIN-SUFFIX,cspt.top 
-DOMAIN-SUFFIX,cspt.cc      
-DOMAIN-SUFFIX,cspt.date     
+DOMAIN-SUFFIX,cspt.top
+DOMAIN-SUFFIX,cspt.cc
+DOMAIN-SUFFIX,cspt.date
 DOMAIN-KEYWORD,cspt
 
 # CyanBug (大青虫)
-DOMAIN-SUFFIX,cyanbug.net                  
+DOMAIN-SUFFIX,cyanbug.net
 DOMAIN-KEYWORD,cyanbug
 
 # HDKylin (麒麟)
-DOMAIN-SUFFIX,hdkyl.in                    
-DOMAIN-SUFFIX,hdkylin.top 
+DOMAIN-SUFFIX,hdkyl.in
+DOMAIN-SUFFIX,hdkylin.top
 DOMAIN-KEYWORD,hdkyl
 
 # UltraHD (韩剧高清站)
-DOMAIN-SUFFIX,ultrahd.net                  
+DOMAIN-SUFFIX,ultrahd.net
 DOMAIN-KEYWORD,ultrahd
 
 # ZhuQue (朱雀)
-DOMAIN-SUFFIX,zhuque.in                
+DOMAIN-SUFFIX,zhuque.in
 DOMAIN-KEYWORD,zhuque
 
-# HaiDan (海胆)         
+# HaiDan (海胆)
 DOMAIN-SUFFIX,haidan.cc
 DOMAIN-KEYWORD,haidan
 
 # OshenPT (奥神)
-DOMAIN-SUFFIX,oshen.win   
+DOMAIN-SUFFIX,oshen.win
 DOMAIN-KEYWORD,oshen
 
 # YeMaPT (野马)
-DOMAIN-SUFFIX,yemapt.org              
+DOMAIN-SUFFIX,yemapt.org
 DOMAIN-KEYWORD,yemapt
 
 # CrabPT (蟹黄堡)
-DOMAIN-SUFFIX,crabpt.vip  
+DOMAIN-SUFFIX,crabpt.vip
 DOMAIN-KEYWORD,crabpt
 
 # KuFei (库非)
-DOMAIN-SUFFIX,kufei.org                   
-DOMAIN-KEYWORD,kufei           
+DOMAIN-SUFFIX,kufei.org
+DOMAIN-KEYWORD,kufei
 
 # PTLGS (PT劳改所)
 DOMAIN-SUFFIX,ptlgs.org
 DOMAIN-SUFFIX,ptl.gs
 
 # XingYunGe (星陨阁)
-DOMAIN-SUFFIX,tracker.xingyungept.org
+DOMAIN,tracker.xingyungept.org
 
 # HDBao (红豆包)
 DOMAIN-SUFFIX,hdbao.cc
 DOMAIN-KEYWORD,hdbao
 
-# DStudio 
+# DStudio
 DOMAIN-SUFFIX,dstudio.me
 DOMAIN-KEYWORD,dstudio
 
@@ -277,11 +277,9 @@ DOMAIN-SUFFIX,pt.0ff.cc
 DOMAIN,tracker.byr.pt
 
 # TJUPT (北洋)
-DOMAIN-SUFFIX,tjupt.org                   
+DOMAIN-SUFFIX,tjupt.org
 DOMAIN-KEYWORD,tjupt
 
 # NanYangPT (南洋)
 DOMAIN-SUFFIX,nanyangpt.com
 DOMAIN-KEYWORD,nanyangpt
-
-
