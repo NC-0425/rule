@@ -1,9 +1,8 @@
-# 规则名称: Emby代理补充
-
-# UHD
+# ==========================================
+# Emby 代理补充 (UHD)
+# ==========================================
 DOMAIN-SUFFIX,global.uhdnow.com
 DOMAIN-SUFFIX,v1.uhdnow.com
-
 
 
 
