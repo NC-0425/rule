@@ -12,6 +12,7 @@ DOMAIN,cc.mypt.cc
 DOMAIN,pt.mypt.cc
 # 星陨阁 PT
 DOMAIN,pt.xingyungept.org
+
 # ------------------------------------------
 # 2. 影视配套工具及开发资源 (后缀匹配)
 # ------------------------------------------
@@ -23,6 +24,7 @@ DOMAIN-SUFFIX,gitbook.io
 DOMAIN-SUFFIX,greasyfork.org
 # PyPI (Python 包索引，MoviePilot 及其插件依赖)
 DOMAIN-SUFFIX,pypi.org
+
 # ------------------------------------------
 # 3. 机场域名 (后缀匹配)
 # ------------------------------------------
@@ -32,13 +34,15 @@ DOMAIN-SUFFIX,52pokemon.cc
 DOMAIN-SUFFIX,101ghost.com
 DOMAIN-SUFFIX,赔钱机场.com
 DOMAIN-SUFFIX,一元机场.asia
+
 # ------------------------------------------
 # 4. 影视资源及相关网站 (后缀匹配)
 # ------------------------------------------
 # 癫影
 DOMAIN-SUFFIX,m.dian115.com
-# 影巢 
-DOMAIN-SUFFIX,re0.me 
+# 影巢
+DOMAIN-SUFFIX,re0.me
+
 # ------------------------------------------
 # 5. TMDB 媒体刮削及图片 CDN (精准与后缀匹配)
 # ------------------------------------------
@@ -47,13 +51,12 @@ DOMAIN-KEYWORD,tmdb
 DOMAIN-KEYWORD,themoviedb
 DOMAIN-SUFFIX,tmdb.org
 DOMAIN-SUFFIX,themoviedb.org
-DOMAIN-SUFFIX,api.tmdb.org
-DOMAIN-SUFFIX,api.themoviedb.org
 # TMDB 最新 Bunny.net 图片 CDN (2025/2026 必加)
 DOMAIN,tmdb-image-prod.b-cdn.net
 DOMAIN,tmdb-web-image-prod.b-cdn.net
 # TMDB 传统图片服务器
 DOMAIN-SUFFIX,image.tmdb.org
+
 # ------------------------------------------
 # 6. IMDb 影视数据库
 # ------------------------------------------
@@ -64,4 +67,5 @@ DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,imdb.to
 DOMAIN-SUFFIX,media-imdb.com
 DOMAIN-SUFFIX,media-amazon.com
-DOMAIN-SUFFIX,api.tiffara.com
+# 第三方 IMDb API 服务 (如 IMDxAPI)
+DOMAIN-SUFFIX,tiffara.com
