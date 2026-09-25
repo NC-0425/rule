@@ -2,9 +2,7 @@
 # Autodesk (AutoCAD 等) 反盗版检测与联网拦截规则
 # ==============================================================================
 
-# ------------------------------------------------------------------------------
 # 1. 核心反盗版/证书无效弹窗检测
-# ------------------------------------------------------------------------------
 DOMAIN-SUFFIX,api.genuine.autodesk.com
 DOMAIN-SUFFIX,genuine.autodesk.com
 DOMAIN-SUFFIX,native.auth.autodesk.com
@@ -16,9 +14,7 @@ DOMAIN-SUFFIX,genuine-software.autodesk.com
 DOMAIN-SUFFIX,genuine-software2.autodesk.com
 DOMAIN-SUFFIX,genuine-software3.autodesk.com
 
-# ------------------------------------------------------------------------------
-# 2. 许可证与身份验证核心域名（阻断后将无法在线登录和在线验证）
-# ------------------------------------------------------------------------------
+# 2. 许可证与身份验证核心域名
 DOMAIN-SUFFIX,licensing.autodesk.com
 DOMAIN-SUFFIX,licenses.autodesk.com
 DOMAIN-SUFFIX,identity.api.autodesk.com
@@ -26,32 +22,26 @@ DOMAIN-SUFFIX,api.autodesk.com
 DOMAIN-SUFFIX,accounts.autodesk.com
 DOMAIN-SUFFIX,auth.autodesk.com
 
-# ------------------------------------------------------------------------------
 # 3. 遥测、数据收集与统计
-# ------------------------------------------------------------------------------
 DOMAIN-SUFFIX,clm.autodesk.com
 DOMAIN-SUFFIX,telemetry.autodesk.com
 DOMAIN-SUFFIX,ipm.autodesk.com
 
 # ==============================================================================
-# 红果广告拦截
+# 红果短剧广告拦截
 # ==============================================================================
 
-# ------------------------------------------------------------------------------
-# 1. 红果核心广告拦截（必加）
-# ------------------------------------------------------------------------------
-  - DOMAIN-SUFFIX,hongguoapp.com
-  - DOMAIN-SUFFIX,hongguosdk.com
-  - DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
-  - DOMAIN-SUFFIX,pglstatp-toutiao.com
-  - DOMAIN-KEYWORD,ad-union-sdk
-  - DOMAIN-KEYWORD,be-pack
-  - DOMAIN-KEYWORD,hongguo.ad
+# 1. 红果核心广告拦截
+DOMAIN-SUFFIX,hongguoapp.com
+DOMAIN-SUFFIX,hongguosdk.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+DOMAIN-SUFFIX,pglstatp-toutiao.com
+DOMAIN-KEYWORD,ad-union-sdk
+DOMAIN-KEYWORD,be-pack
+DOMAIN-KEYWORD,hongguo.ad
 
-# ------------------------------------------------------------------------------
-# 2.字节系广告兜底（红果隶属字节）
-# ------------------------------------------------------------------------------
-  - DOMAIN-SUFFIX,ad.pangle.cn
-  - DOMAIN-SUFFIX,ad.pangolin.cn
-  - DOMAIN-SUFFIX,zijieapi.com
-  - DOMAIN-KEYWORD,tnc.snssdk
+# 2. 字节系广告兜底
+DOMAIN-SUFFIX,ad.pangle.cn
+DOMAIN-SUFFIX,ad.pangolin.cn
+DOMAIN-SUFFIX,zijieapi.com
+DOMAIN-KEYWORD,tnc.snssdk
