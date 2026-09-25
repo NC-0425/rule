@@ -32,3 +32,26 @@ DOMAIN-SUFFIX,auth.autodesk.com
 DOMAIN-SUFFIX,clm.autodesk.com
 DOMAIN-SUFFIX,telemetry.autodesk.com
 DOMAIN-SUFFIX,ipm.autodesk.com
+
+# ==============================================================================
+# 红果广告拦截
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. 红果核心广告拦截（必加）
+# ------------------------------------------------------------------------------
+  - DOMAIN-SUFFIX,hongguoapp.com
+  - DOMAIN-SUFFIX,hongguosdk.com
+  - DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+  - DOMAIN-SUFFIX,pglstatp-toutiao.com
+  - DOMAIN-KEYWORD,ad-union-sdk
+  - DOMAIN-KEYWORD,be-pack
+  - DOMAIN-KEYWORD,hongguo.ad
+
+# ------------------------------------------------------------------------------
+# 2.字节系广告兜底（红果隶属字节）
+# ------------------------------------------------------------------------------
+  - DOMAIN-SUFFIX,ad.pangle.cn
+  - DOMAIN-SUFFIX,ad.pangolin.cn
+  - DOMAIN-SUFFIX,zijieapi.com
+  - DOMAIN-KEYWORD,tnc.snssdk
