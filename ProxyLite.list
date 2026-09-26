@@ -28,11 +28,10 @@ DOMAIN-SUFFIX,pypi.org
 # ------------------------------------------
 # 3. 机场域名 (后缀匹配)
 # ------------------------------------------
-DOMAIN-SUFFIX,xn--h6qt66ax7k.com
 DOMAIN-SUFFIX,dash.ouonetwork.com
 DOMAIN-SUFFIX,52pokemon.cc
 DOMAIN-SUFFIX,101ghost.com
-DOMAIN-SUFFIX,赔钱机场.com
+DOMAIN-SUFFIX,xn--mes358aby2apfg.com
 DOMAIN-SUFFIX,一元机场.asia
 
 # ------------------------------------------
