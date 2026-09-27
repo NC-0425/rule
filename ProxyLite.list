@@ -24,6 +24,8 @@ DOMAIN-SUFFIX,gitbook.io
 DOMAIN-SUFFIX,greasyfork.org
 # PyPI (Python 包索引，MoviePilot 及其插件依赖)
 DOMAIN-SUFFIX,pypi.org
+# Muvyo 网络授权
+DOMAIN-SUFFIX,muvyo.com
 
 # ------------------------------------------
 # 3. 机场域名 (后缀匹配)
