@@ -74,8 +74,8 @@ DOMAIN-SUFFIX,tiffara.com
 # ------------------------------------------
 # 7. 番剧元数据
 # ------------------------------------------
-# AniList 番剧元数据AniList 番剧元数据
-DOMAIN-SUFFIX,anilist.co
+# AniList 番剧元数据
+DOMAIN-SUFFIX,graphql.anilist.co
 # trace.moe 番剧识别
 DOMAIN-SUFFIX,trace.moe
 
