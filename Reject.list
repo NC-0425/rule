@@ -31,7 +31,7 @@ DOMAIN-SUFFIX,ipm.autodesk.com
 # 红果短剧广告拦截
 # ==============================================================================
 # ----------------------------------------------------
-# name: 红果短剧综合去广告综合规则集 · 2026 最终整合版
+# name: 红果短剧综合去广告综合规则集 · 2026 最终整合版 (已修正语法)
 # desc: 完美合并全套核心域、字节兜底关键词、第三方 SDK 以及高级路径正则
 # ----------------------------------------------------
 payload:
@@ -44,22 +44,15 @@ payload:
   - DOMAIN-SUFFIX,ad.pangolin.cn
   - DOMAIN-SUFFIX,pangle.io
   - DOMAIN-SUFFIX,zijieapi.com
-  - DOMAIN,://snssdk.com
-  - DOMAIN,://snssdk.com
-  - DOMAIN,://snssdk.com
-  - DOMAIN,://snssdk.com
-  - DOMAIN,://snssdk.com
-  - DOMAIN,://awemeughun.com
+  - DOMAIN-SUFFIX,snssdk.com
+  - DOMAIN-SUFFIX,awemeughun.com
   - DOMAIN,dig.bdurl.net
-  - DOMAIN,://byteimg.com
-  - DOMAIN,://byteimg.com
-  - DOMAIN,://ctobsnssdk.com
-  - DOMAIN,://bytedance.com
-  - DOMAIN,://snssdk.com
-  - DOMAIN,://snssdk.com
+  - DOMAIN-SUFFIX,byteimg.com
+  - DOMAIN-SUFFIX,ctobsnssdk.com
+  - DOMAIN-SUFFIX,bytedance.com
 
-  # ② 红果接入的第三方兜底广告聯盟 (直接封禁)
-  - DOMAIN-SUFFIX,://qq.com
+  # ② 红果接入的第三方兜底广告联盟 (精准定位广告域，避免误伤整个 qq.com)
+  - DOMAIN-SUFFIX,e.qq.com
   - DOMAIN-SUFFIX,miaozhen.com
   - DOMAIN-SUFFIX,doubleclick.net
   
