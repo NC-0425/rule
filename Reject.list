@@ -30,18 +30,49 @@ DOMAIN-SUFFIX,ipm.autodesk.com
 # ==============================================================================
 # 红果短剧广告拦截
 # ==============================================================================
+# ----------------------------------------------------
+# name: 红果短剧综合去广告综合规则集 · 2026 最终整合版
+# desc: 完美合并全套核心域、字节兜底关键词、第三方 SDK 以及高级路径正则
+# ----------------------------------------------------
+payload:
+  # ① 红果核心与字节商业化专属域名 (直接封禁)
+  - DOMAIN-SUFFIX,hongguoapp.com
+  - DOMAIN-SUFFIX,hongguosdk.com
+  - DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+  - DOMAIN-SUFFIX,pglstatp-toutiao.com
+  - DOMAIN-SUFFIX,ad.pangle.cn
+  - DOMAIN-SUFFIX,ad.pangolin.cn
+  - DOMAIN-SUFFIX,pangle.io
+  - DOMAIN-SUFFIX,zijieapi.com
+  - DOMAIN,://snssdk.com
+  - DOMAIN,://snssdk.com
+  - DOMAIN,://snssdk.com
+  - DOMAIN,://snssdk.com
+  - DOMAIN,://snssdk.com
+  - DOMAIN,://awemeughun.com
+  - DOMAIN,dig.bdurl.net
+  - DOMAIN,://byteimg.com
+  - DOMAIN,://byteimg.com
+  - DOMAIN,://ctobsnssdk.com
+  - DOMAIN,://bytedance.com
+  - DOMAIN,://snssdk.com
+  - DOMAIN,://snssdk.com
 
-# 1. 红果核心广告拦截
-DOMAIN-SUFFIX,hongguoapp.com
-DOMAIN-SUFFIX,hongguosdk.com
-DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
-DOMAIN-SUFFIX,pglstatp-toutiao.com
-DOMAIN-KEYWORD,ad-union-sdk
-DOMAIN-KEYWORD,be-pack
-DOMAIN-KEYWORD,hongguo.ad
+  # ② 红果接入的第三方兜底广告聯盟 (直接封禁)
+  - DOMAIN-SUFFIX,://qq.com
+  - DOMAIN-SUFFIX,miaozhen.com
+  - DOMAIN-SUFFIX,doubleclick.net
+  
+  # ③ 核心广告特征关键词拦截 (域名包含即封禁)
+  - DOMAIN-KEYWORD,ad-union-sdk
+  - DOMAIN-KEYWORD,be-pack
+  - DOMAIN-KEYWORD,hongguo.ad
+  - DOMAIN-KEYWORD,tnc.snssdk
+  - DOMAIN-KEYWORD,volcengine-ad
 
-# 2. 字节系广告兜底
-DOMAIN-SUFFIX,ad.pangle.cn
-DOMAIN-SUFFIX,ad.pangolin.cn
-DOMAIN-SUFFIX,zijieapi.com
-DOMAIN-KEYWORD,tnc.snssdk
+  # ④ 高风险共享域名 (采用精准路径过滤，保护正常剧集不误杀)
+  - URL-REGEX,(ad-app-package|ad-pattern|ad-sign|track_log|get_ads|union/sdk)
+  - URL-REGEX,(\/obj\/ad\/|\/obj\/img\/ad\/)
+  - URL-REGEX,(\?from=ad)
+  - URL-REGEX,(^https:\/\/(i|i-lq)\.snssdk\.com\/api\/ad\/)
+  - URL-REGEX,(^https:\/\/(i|i-lq)\.snssdk\.com\/.*\/(ad|ads|advert|advertisement)\/)
