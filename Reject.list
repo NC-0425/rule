@@ -31,7 +31,7 @@ DOMAIN-SUFFIX,ipm.autodesk.com
 # 红果短剧广告拦截
 # ==============================================================================
 # ----------------------------------------------------
-# name: 红果短剧综合去广告综合规则集 · 2026 最终整合版 (已修正语法)
+# name: 红果短剧综合去广告综合规则集 · 2026 最终整合版，注：网络规则无法完全屏蔽
 # desc: 完美合并全套核心域、字节兜底关键词、第三方 SDK 以及高级路径正则
 # ----------------------------------------------------
 payload:
@@ -39,6 +39,8 @@ payload:
   - DOMAIN-SUFFIX,hongguoapp.com
   - DOMAIN-SUFFIX,hongguosdk.com
   - DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+  - DOMAIN-SUFFIX,pangolin-sdk-aval.com
+  - DOMAIN-SUFFIX,pangolin-bidding-toutiao.com
   - DOMAIN-SUFFIX,pglstatp-toutiao.com
   - DOMAIN-SUFFIX,ad.pangle.cn
   - DOMAIN-SUFFIX,ad.pangolin.cn
@@ -50,20 +52,23 @@ payload:
   - DOMAIN-SUFFIX,byteimg.com
   - DOMAIN-SUFFIX,ctobsnssdk.com
   - DOMAIN-SUFFIX,bytedance.com
+  - DOMAIN-SUFFIX,volcengine.com
 
-  # ② 红果接入的第三方兜底广告联盟 (精准定位广告域，避免误伤整个 qq.com)
+  # ② 第三方兜底广告联盟
   - DOMAIN-SUFFIX,e.qq.com
   - DOMAIN-SUFFIX,miaozhen.com
   - DOMAIN-SUFFIX,doubleclick.net
   
-  # ③ 核心广告特征关键词拦截 (域名包含即封禁)
+  # ③ 核心广告特征关键词拦截
   - DOMAIN-KEYWORD,ad-union-sdk
   - DOMAIN-KEYWORD,be-pack
   - DOMAIN-KEYWORD,hongguo.ad
   - DOMAIN-KEYWORD,tnc.snssdk
   - DOMAIN-KEYWORD,volcengine-ad
+  - DOMAIN-KEYWORD,pangolin
+  - DOMAIN-KEYWORD,pangle
 
-  # ④ 高风险共享域名 (采用精准路径过滤，保护正常剧集不误杀)
+  # ④ 高风险共享域名与路径正则
   - URL-REGEX,(ad-app-package|ad-pattern|ad-sign|track_log|get_ads|union/sdk)
   - URL-REGEX,(\/obj\/ad\/|\/obj\/img\/ad\/)
   - URL-REGEX,(\?from=ad)
