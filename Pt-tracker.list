@@ -283,3 +283,18 @@ DOMAIN-KEYWORD,tjupt
 # NanYangPT (南洋)
 DOMAIN-SUFFIX,nanyangpt.com
 DOMAIN-KEYWORD,nanyangpt
+
+# ==============================================================================
+# 七、 IP检测
+# ==============================================================================
+
+DOMAIN-SUFFIX,v6.66666.host
+DOMAIN-SUFFIX,myip6.ipip.net
+DOMAIN-SUFFIX,6.ipw.cn
+DOMAIN-SUFFIX,v6.666666.host
+DOMAIN-SUFFIX,v4.66666.host
+DOMAIN-SUFFIX,v4.666666.host
+DOMAIN-SUFFIX,4.ipw.cn
+DOMAIN-SUFFIX,ip.3322.net
+DOMAIN-SUFFIX,myip.ipip.net
+DOMAIN-SUFFIX,ddns.oray.com
