@@ -26,6 +26,8 @@ DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,pypi.org
 # Muvyo 网络授权
 DOMAIN-SUFFIX,muvyo.com
+# 代理软件模块
+DOMAIN-SUFFIX,yfamilys.com
 
 # ------------------------------------------
 # 3. 机场域名 (后缀匹配)
