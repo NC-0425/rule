@@ -1,16 +1,15 @@
 [Plugin]
-name = 综合 IP、测速与防 DNS 泄露分红插件
-desc = 整合了 IP 查询、测速、Cloudflare 域名、全套防 DNS 泄露（Port 53 及泄露测试域名）的高级 Loon 插件。
+name = 自定义分流与防DNS泄露插件
+desc = 基于标准模板，整合了IP查询、测速域名及防DNS泄露规则
 author = User
 icon = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
 
 [Argument]
-# 支持在 Loon 导入时自由下拉或修改绑定你配置的代理策略组名称
-target_policy = select,"PROXY","DIRECT","?? 全球直连","???? 香港节点","???? 美国节点",tag=选择代理策略,desc=请选择此插件包含的所有分流规则要走的代理策略
+target_policy = select,"PROXY","DIRECT","🎯 全球直连","🇭🇰 香港节点","🇺🇸 美国节点",tag=选择代理策略,desc=请选择此插件包含的所有规则要走的代理策略
 
 [Rule]
 # ==========================================
-# 1. 完整防 DNS 泄露与公共 DNS 拦截规则
+# 1. 防 DNS 泄露与公共 DNS 拦截规则
 # ==========================================
 PORT,53,$target_policy
 
@@ -23,7 +22,6 @@ IP-CIDR,149.112.112.112/32,$target_policy,no-resolve
 IP-CIDR,208.67.222.222/32,$target_policy,no-resolve
 IP-CIDR,208.67.220.220/32,$target_policy,no-resolve
 
-# 补充原插件的防 DNS 泄露专属域名
 DOMAIN-SUFFIX,dnsleaktest.com,$target_policy
 DOMAIN-SUFFIX,dnsleak.com,$target_policy
 DOMAIN-SUFFIX,expressvpn.com,$target_policy
@@ -52,8 +50,6 @@ DOMAIN-SUFFIX,ipcheck.im,$target_policy
 DOMAIN,challenges.cloudflare.com,$target_policy
 DOMAIN,speed.cloudflare.com,$target_policy
 DOMAIN-SUFFIX,fast.com,$target_policy
-# DOMAIN,ichnaea-web.netflix.com,$target_policy
-# DOMAIN-SUFFIX,1.oca.nflxvideo.net,$target_policy
 DOMAIN-SUFFIX,speedcheck.org,$target_policy
 DOMAIN-SUFFIX,speedtest.net,$target_policy
 DOMAIN-SUFFIX,speedtest.cn,$target_policy
