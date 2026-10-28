@@ -1,9 +1,0 @@
-[Plugin]
-name = Speed
-desc = 将远程 Check.list 规则转换为 Loon 插件并绑定指定代理策略
-author = User
-icon = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
-
-[Rule]
-# 这里的 Proxy 策略可以修改为你 Loon 配置中存在的任何策略组或节点名称（例如：DIRECT、PROXY、香港节点 等）
-DOMAIN-SET,https://raw.githubusercontent.com/liandu2024/clash/refs/heads/main/list/Check.list,Proxy
