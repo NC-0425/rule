@@ -1,0 +1,82 @@
+[Plugin]
+name = 测速与IP查询分流插件
+desc = 包含各类 IP 查询、测速、Cloudflare 及相关工具域名的 Loon 插件，支持自定义代理策略。
+author = User
+icon = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
+
+[Argument]
+# 在这里定义可视化选择项。你导入插件时，可以在 Loon 界面下拉选择目标策略组或节点。
+# 提示：你也可以在 Loon 导入后，直接点击该参数输入框，把 "PROXY" 改为你自己配置的任意策略组名称（如：香港节点、🇭🇰 港台节点、🎯 全球直连 等）。
+target_policy = select,"PROXY","DIRECT","🎯 全球直连","🇭🇰 香港节点","🇺🇸 美国节点",tag=选择代理策略,desc=请选择此插件包含的所有 IP 和测速域名要走的策略
+
+[Rule]
+IP-CIDR,142.251.215.0/24,$target_policy,no-resolve
+
+DOMAIN-SUFFIX,yalala.com,$target_policy
+DOMAIN-SUFFIX,whois.pconline.com.cn,$target_policy
+DOMAIN-SUFFIX,ipip.net,$target_policy
+DOMAIN-SUFFIX,b0.upaiyun.com,$target_policy
+DOMAIN-SUFFIX,asn247.net,$target_policy
+DOMAIN-SUFFIX,astrill.org,$target_policy
+DOMAIN-SUFFIX,ipinfo.io,$target_policy
+
+DOMAIN-SUFFIX,vultr.com,$target_policy
+DOMAIN-SUFFIX,test-ipv6.com,$target_policy
+DOMAIN-SUFFIX,ipw.cn,$target_policy
+
+DOMAIN-SUFFIX,ipcheck.im,$target_policy
+DOMAIN,challenges.cloudflare.com,$target_policy
+DOMAIN,speed.cloudflare.com,$target_policy
+DOMAIN-SUFFIX,fast.com,$target_policy
+# DOMAIN,ichnaea-web.netflix.com,$target_policy
+# DOMAIN-SUFFIX,1.oca.nflxvideo.net,$target_policy
+DOMAIN-SUFFIX,speedcheck.org,$target_policy
+DOMAIN-SUFFIX,speedtest.net,$target_policy
+DOMAIN-SUFFIX,speedtest.cn,$target_policy
+DOMAIN-SUFFIX,ustc.edu.cn,$target_policy
+DOMAIN-SUFFIX,dnscheck.tools,$target_policy
+DOMAIN-SUFFIX,whoer.net,$target_policy
+DOMAIN-SUFFIX,browserleaks.com,$target_policy
+DOMAIN-SUFFIX,browserleaks.org,$target_policy
+DOMAIN-SUFFIX,browserleaks.net,$target_policy
+DOMAIN-SUFFIX,dnsleaktest.org,$target_policy
+DOMAIN-SUFFIX,1-b.net,$target_policy
+DOMAIN-SUFFIX,workers.dev,$target_policy
+DOMAIN-SUFFIX,jsonp-ip.com,$target_policy
+DOMAIN-SUFFIX,sspanel.net,$target_policy
+
+DOMAIN-SUFFIX,dnsleaktest.com,$target_policy
+DOMAIN-SUFFIX,browserscan.net,$target_policy
+DOMAIN-SUFFIX,surfshark.com,$target_policy
+DOMAIN-SUFFIX,surfsharkdns.com,$target_policy
+DOMAIN-SUFFIX,ip-api.com,$target_policy
+
+DOMAIN-SUFFIX,ipleak.net,$target_policy
+DOMAIN-SUFFIX,ip-score.com,$target_policy
+DOMAIN-SUFFIX,888005.xyz,$target_policy
+DOMAIN-SUFFIX,incolumitas.com,$target_policy
+
+DOMAIN-SUFFIX,null-addr.com,$target_policy
+DOMAIN-SUFFIX,null-addr.net,$target_policy
+DOMAIN-SUFFIX,null-addr.org,$target_policy
+DOMAIN-SUFFIX,null-addr.biz,$target_policy
+DOMAIN-SUFFIX,null-addr.info,$target_policy
+DOMAIN-SUFFIX,addr.tools,$target_policy
+
+DOMAIN-SUFFIX,ifconfig.me,$target_policy
+DOMAIN-SUFFIX,ip125.com,$target_policy
+DOMAIN-SUFFIX,skk.moe,$target_policy
+DOMAIN-SUFFIX,ip111.cn,$target_policy
+DOMAIN-SUFFIX,ping0.cc,$target_policy
+DOMAIN-SUFFIX,ip.sb,$target_policy
+DOMAIN-SUFFIX,ipify.org,$target_policy
+DOMAIN-SUFFIX,whoer.com,$target_policy
+DOMAIN-SUFFIX,whatismyip.com.tw,$target_policy
+DOMAIN-SUFFIX,whatismyip.com,$target_policy
+DOMAIN-SUFFIX,whoisip.me,$target_policy
+DOMAIN-SUFFIX,ipaddress.me,$target_policy
+DOMAIN-SUFFIX,ip2proxy.com,$target_policy
+DOMAIN-SUFFIX,vpnapi.io,$target_policy
+
+IP-CIDR,74.125.250.129/24,$target_policy,no-resolve
+DOMAIN-SUFFIX,l.google.com,$target_policy
