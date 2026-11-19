@@ -1,92 +1,107 @@
 # ==========================================
-# 代理补充列表 (Proxy Custom Rules)
+# 代理补充列表 (Clash / Mihomo rule-provider payload)
+# ==========================================
+# 用法一：作为 rule-providers 引用（推荐）
+#   rule-providers:
+#     proxy-extra:
+#       type: file
+#       behavior: domain
+#       format: yaml
+#       path: ./rules/proxy-extra.yaml
+#
+# 用法二：若要直接粘贴进主配置的 rules: 段，
+#   需给每条规则补第三列策略，例如 DOMAIN,byr.pt,PROXY
+#
+# 注意：PT 的 Tracker 域名请在主配置中用 DIRECT 规则放在本列表之前。
 # ==========================================
 
-# ------------------------------------------
-# 1. PT 站相关域名，域名走代理，Tracker另行设置走直连 (精准匹配)
-# ------------------------------------------
-# BYR PT (北邮人PT，网页无教育网需国外IPV6访问，tracker已单独设置走直连)
-DOMAIN,byr.pt
-# 我的PT PT
-DOMAIN,cc.mypt.cc
-DOMAIN,pt.mypt.cc
-# 星陨阁 PT
-DOMAIN,pt.xingyungept.org
+payload:
+  # ------------------------------------------
+  # 1. PT 站（精确匹配）
+  # ------------------------------------------
+  # BYR PT（网页需国外 IPv6 访问，tracker 走直连）
+  - DOMAIN,byr.pt
+  # 我的PT
+  - DOMAIN,cc.mypt.cc
+  - DOMAIN,pt.mypt.cc
+  # 星陨阁 PT
+  - DOMAIN,pt.xingyungept.org
 
-# ------------------------------------------
-# 2. 影视配套工具及开发资源 (后缀匹配)
-# ------------------------------------------
-# MoviePilot 官方维基文档
-DOMAIN-SUFFIX,wiki.movie-pilot.org
-# GitBook 文档托管平台
-DOMAIN-SUFFIX,gitbook.io
-# Greasy Fork 用户脚本平台
-DOMAIN-SUFFIX,greasyfork.org
-# PyPI (Python 包索引，MoviePilot 及其插件依赖)
-DOMAIN-SUFFIX,pypi.org
-# Muvyo 网络授权
-DOMAIN-SUFFIX,muvyo.com
-# 代理软件模块
-DOMAIN-SUFFIX,yfamilys.com
+  # ------------------------------------------
+  # 2. 影视配套工具及开发资源
+  # ------------------------------------------
+  # MoviePilot 官方维基
+  - DOMAIN,wiki.movie-pilot.org
+  # GitBook 文档托管
+  - DOMAIN-SUFFIX,gitbook.io
+  # Greasy Fork 用户脚本
+  - DOMAIN-SUFFIX,greasyfork.org
+  # PyPI：元数据走 pypi.org，包体实际走 files.pythonhosted.org，两条都需要
+  - DOMAIN-SUFFIX,pypi.org
+  - DOMAIN-SUFFIX,pythonhosted.org
+  # Muvyo 网络授权
+  - DOMAIN-SUFFIX,muvyo.com
+  # 代理软件模块
+  - DOMAIN-SUFFIX,yfamilys.com
 
-# ------------------------------------------
-# 3. 机场域名 (后缀匹配)
-# ------------------------------------------
-DOMAIN-SUFFIX,dash.ouonetwork.com
-DOMAIN-SUFFIX,52pokemon.cc
-DOMAIN-SUFFIX,101ghost.com
-DOMAIN-SUFFIX,xn--mes358aby2apfg.com
-DOMAIN-SUFFIX,一元机场.asia
+  # ------------------------------------------
+  # 3. 机场域名
+  # ------------------------------------------
+  - DOMAIN,dash.ouonetwork.com
+  - DOMAIN-SUFFIX,52pokemon.cc
+  - DOMAIN-SUFFIX,101ghost.com
+  # 赔钱机场.com
+  - DOMAIN-SUFFIX,xn--mes358aby2apfg.com
+  # 一元机场.asia（必须用 punycode，中文原文不会命中）
+  - DOMAIN-SUFFIX,xn--4gq62f52gdss.asia
 
-# ------------------------------------------
-# 4. 影视资源及相关网站 (后缀匹配)
-# ------------------------------------------
-# 癫影
-DOMAIN-SUFFIX,m.dian115.com
-# 影巢
-DOMAIN-SUFFIX,re0.me
+  # ------------------------------------------
+  # 4. 影视资源及相关网站
+  # ------------------------------------------
+  # 癫影
+  - DOMAIN,m.dian115.com
+  # 影巢
+  - DOMAIN-SUFFIX,re0.me
 
-# ------------------------------------------
-# 5. TMDB 媒体刮削及图片 CDN (精准与后缀匹配)
-# ------------------------------------------
-# TMDB 核心 API 与网页
-DOMAIN-KEYWORD,tmdb
-DOMAIN-KEYWORD,themoviedb
-DOMAIN-SUFFIX,tmdb.org
-DOMAIN-SUFFIX,themoviedb.org
-# TMDB 最新 Bunny.net 图片 CDN (2025/2026 必加)
-DOMAIN,tmdb-image-prod.b-cdn.net
-DOMAIN,tmdb-web-image-prod.b-cdn.net
-# TMDB 传统图片服务器
-DOMAIN-SUFFIX,image.tmdb.org
+  # ------------------------------------------
+  # 5. TMDB 媒体刮削及图片 CDN
+  # ------------------------------------------
+  # DOMAIN-KEYWORD 为子串匹配，已覆盖：
+  #   tmdb.org / themoviedb.org / image.tmdb.org
+  #   tmdb-image-prod.b-cdn.net / tmdb-web-image-prod.b-cdn.net
+  # 因此不再单列上述精确规则；若日后删除 KEYWORD，请改回显式条目
+  - DOMAIN-KEYWORD,tmdb
+  - DOMAIN-KEYWORD,themoviedb
 
-# ------------------------------------------
-# 6. IMDb 影视数据库
-# ------------------------------------------
-# IMDb 票房数据网站 Box Office Mojo
-DOMAIN-SUFFIX,boxofficemojo.com
-# IMDb 官方网站及相关服务
-DOMAIN-SUFFIX,imdb.com
-DOMAIN-SUFFIX,imdb.to
-DOMAIN-SUFFIX,media-imdb.com
-DOMAIN-SUFFIX,media-amazon.com
-# 第三方 IMDb API 服务 (如 IMDxAPI)
-DOMAIN-SUFFIX,tiffara.com
+  # ------------------------------------------
+  # 6. IMDb 影视数据库
+  # ------------------------------------------
+  # Box Office Mojo
+  - DOMAIN-SUFFIX,boxofficemojo.com
+  # IMDb 官网及相关服务
+  - DOMAIN-SUFFIX,imdb.com
+  - DOMAIN-SUFFIX,imdb.to
+  - DOMAIN-SUFFIX,media-imdb.com
+  # IMDb 图片 CDN（收窄，避免把整个 Amazon 媒体域都代理出去）
+  - DOMAIN-SUFFIX,m.media-amazon.com
+  # 第三方 IMDb API：imdbapi.dev 为现用端点，tiffara.com 为旧 RapidAPI 后端，保留兼容
+  - DOMAIN-SUFFIX,imdbapi.dev
+  - DOMAIN-SUFFIX,tiffara.com
 
-# ------------------------------------------
-# 7. 番剧元数据
-# ------------------------------------------
-# AniList 番剧元数据
-# DOMAIN-SUFFIX,graphql.anilist.co
-# trace.moe 番剧识别
-DOMAIN-SUFFIX,trace.moe
+  # ------------------------------------------
+  # 7. 番剧元数据
+  # ------------------------------------------
+  # AniList（含 graphql.anilist.co）
+  - DOMAIN-SUFFIX,anilist.co
+  # trace.moe 番剧识别
+  - DOMAIN-SUFFIX,trace.moe
 
-# ------------------------------------------
-# 8. 音乐元数据
-# ------------------------------------------
-# AcoustID 音频识别
-DOMAIN-SUFFIX,acoustid.org
-# TheAudioDB 音乐信息
-DOMAIN-SUFFIX,theaudiodb.com
-# LRCLIB 歌词服务
-DOMAIN-SUFFIX,lrclib.net
+  # ------------------------------------------
+  # 8. 音乐元数据
+  # ------------------------------------------
+  # AcoustID 音频识别
+  - DOMAIN-SUFFIX,acoustid.org
+  # TheAudioDB 音乐信息
+  - DOMAIN-SUFFIX,theaudiodb.com
+  # LRCLIB 歌词服务
+  - DOMAIN-SUFFIX,lrclib.net
