@@ -1,28 +1,80 @@
 # ==============================================================================
-# Autodesk (AutoCAD 等) 反盗版检测与联网拦截规则
+# Autodesk (AutoCAD / Revit / 3ds Max 等) 反盗版检测拦截规则集
+# ==============================================================================
+# 【引用方式】必须用 REJECT，且排在所有 PROXY / DIRECT 规则之前
+#
+#   rule-providers:
+#     autodesk-block:
+#       type: file
+#       behavior: domain
+#       format: yaml
+#       path: ./rules/autodesk-block.yaml
+#
+#   rules:
+#     - RULE-SET,autodesk-block,REJECT     # ← 策略必须是 REJECT
+#     - RULE-SET,pt-direct,DIRECT
+#     - ...
+#
+# 若直接写 rules: 段，每条补 ,REJECT
+# 注意：策略写成 DIRECT 或 PROXY 等于没拦。
 # ==============================================================================
 
-# 1. 核心反盗版/证书无效弹窗检测
-DOMAIN-SUFFIX,api.genuine.autodesk.com
-DOMAIN-SUFFIX,genuine.autodesk.com
-DOMAIN-SUFFIX,native.auth.autodesk.com
-DOMAIN-SUFFIX,access.clic.autodesk.com
-DOMAIN-SUFFIX,clm.clic.autodesk.com
-DOMAIN-SUFFIX,registeronce.autodesk.com
-DOMAIN-SUFFIX,cur.autodesk.com
-DOMAIN-SUFFIX,genuine-software.autodesk.com
-DOMAIN-SUFFIX,genuine-software2.autodesk.com
-DOMAIN-SUFFIX,genuine-software3.autodesk.com
+payload:
+  # ----------------------------------------------------------------------------
+  # A. 反盗版 / 正版校验（必封，副作用小）
+  # ----------------------------------------------------------------------------
+  # genuine.autodesk.com 已覆盖 api.genuine.autodesk.com
+  - DOMAIN-SUFFIX,genuine.autodesk.com
+  # genuine-software 为编号变体，1~5 全列；若日后出现 6、7……
+  # 可改用正则：DOMAIN-REGEX,(^|\.)genuine-software\d*\.autodesk\.com$
+  - DOMAIN-SUFFIX,genuine-software.autodesk.com
+  - DOMAIN-SUFFIX,genuine-software2.autodesk.com
+  - DOMAIN-SUFFIX,genuine-software3.autodesk.com
+  - DOMAIN-SUFFIX,genuine-software4.autodesk.com
+  - DOMAIN-SUFFIX,genuine-software5.autodesk.com
+  # clic.autodesk.com 已覆盖 access.clic / clm.clic 两条
+  - DOMAIN-SUFFIX,clic.autodesk.com
+  # 首次激活登记
+  - DOMAIN-SUFFIX,registeronce.autodesk.com
+  # 客户端使用行为上报（弹窗来源之一）
+  - DOMAIN-SUFFIX,cur.autodesk.com
+  # 应用内推广 / 升级提示
+  - DOMAIN-SUFFIX,ipm.autodesk.com
 
-# 2. 许可证与身份验证核心域名
-DOMAIN-SUFFIX,licensing.autodesk.com
-DOMAIN-SUFFIX,licenses.autodesk.com
-DOMAIN-SUFFIX,identity.api.autodesk.com
-DOMAIN-SUFFIX,api.autodesk.com
-DOMAIN-SUFFIX,accounts.autodesk.com
-DOMAIN-SUFFIX,auth.autodesk.com
+  # ----------------------------------------------------------------------------
+  # B. 遥测与统计（建议封，无功能损失）
+  # ----------------------------------------------------------------------------
+  - DOMAIN-SUFFIX,clm.autodesk.com
+  - DOMAIN-SUFFIX,telemetry.autodesk.com
 
-# 3. 遥测、数据收集与统计
-DOMAIN-SUFFIX,clm.autodesk.com
-DOMAIN-SUFFIX,telemetry.autodesk.com
-DOMAIN-SUFFIX,ipm.autodesk.com
+  # ----------------------------------------------------------------------------
+  # C. 许可证 / 身份认证（有效，但有代价 —— 默认关闭，按需开启）
+  # ----------------------------------------------------------------------------
+  # 封掉可阻断在线校验，但同时会导致：无法登录、无法激活正版、
+  # 云服务 / 协作 / 移动端同步全部失效，个别版本反而弹出更多错误框。
+  - DOMAIN-SUFFIX,licensing.autodesk.com
+  - DOMAIN-SUFFIX,licenses.autodesk.com
+  # - DOMAIN-SUFFIX,auth.autodesk.com          # 已覆盖 native.auth.autodesk.com
+  # - DOMAIN-SUFFIX,accounts.autodesk.com
+  # - DOMAIN-SUFFIX,api.autodesk.com           # 已覆盖 identity.api.autodesk.com
+  #                                             # 但它是 Autodesk 云 API 总入口，
+  #                                             # 会连带打死更新检查、云渲染、Fusion 等
+
+  # ----------------------------------------------------------------------------
+  # D. 可选：下载器 / 云服务 / 全局（按需开启）
+  # ----------------------------------------------------------------------------
+  # - DOMAIN-SUFFIX,dlm.autodesk.com           # 下载管理器
+  # - DOMAIN-SUFFIX,a360.autodesk.com          # Autodesk 360
+  # - DOMAIN-SUFFIX,autodesk.com               # 核弹选项：整个 Autodesk 域全断
+  #                                             # 帮助文档、论坛、账号全不可用
+
+# ==============================================================================
+# 这份规则做不到的事（务必知道）
+# ==============================================================================
+# 1. 只对「经过 Clash 的流量」有效。AdskLicensingService / adskflex 是本地
+#    服务，与 127.0.0.1 通信，域名规则拦不到它。
+# 2. 客户端若走 DoH / 硬编码 IP / 系统代理之外的自建连接，仍可能绕过。
+# 3. 想彻底静音，需要配合：hosts 写 0.0.0.0 指向这些域名、
+#    Windows 防火墙出站规则、或直接停用 AdskLicensingService 的自动更新。
+# 4. 拦截不等于破解。仅用于已授权环境阻断误报召回，别指望它解决授权问题。
+# ==============================================================================
